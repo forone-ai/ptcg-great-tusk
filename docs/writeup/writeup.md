@@ -49,7 +49,7 @@ Layers 1 and 4 are a 4,500-line rule policy: deck-depletion pace â†’ plan flag â
 
 ![Figure 5: Decision B of the traced turn](images/07c_decision_B.png)
 
-![Figure 6: the board two steps after the traced attack (step 124, Kaggle episode viewer)](images/07b_board_turn15_kaggle_viewer.jpg)
+![Figure 6: the board at the traced decision (step 120, official Kaggle visualizer; the selected action is Explorer's Guidance)](images/07b_board_step120_visualizer.png)
 
 **Handling hidden information.** Search runs over determinized worlds through the competition's Search API: the agent fingerprints the opponent by visible card IDs against roughly three dozen reproduced public decklists, samples hidden cards from that candidate list minus everything seen (an approximate generator, separate from the post-deadline test's), and weights the rest by retention rates fit on ~200,000 real positions. No registry match, no machinery: rules alone.
 
