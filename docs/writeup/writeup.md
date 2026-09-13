@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-*Strategy:* pull every game toward deck-out so the hidden state shrinks — exact arithmetic and search both work better there — and let search finish what heuristics cannot. *Deck:* Great Tusk mill behind a Crustle wall, Neutralization Zone turning off ex attackers. *Method:* four decision layers matched to decision certainty, gated by testing and replay review. *Result:* 799.3 final, rank 1,150 of 6,807 (top 17%); best Great Tusk entry 872.2. *What the ladder taught us:* hidden opponent cards fall from 59 to 18 by the time their deck is down to eight; games that get there are won 71%, the rest 25%; earlier builds whose search visibly fired converted that regime about 7 points better than the final build, which shipped without search (different builds, not a controlled test). *Post-deadline:* in a predeclared test of 300 thin-deck positions, revealing the sampled hidden configuration gained only +0.8 points, and an exploratory follow-up found about one-fifth the forecast error of early-game positions.
+*Strategy:* pull every game toward deck-out so the hidden state shrinks — exact arithmetic and search both work better there — and let search finish what heuristics cannot. *Deck:* Great Tusk mill behind a Crustle wall, Neutralization Zone turning off ex attackers. *Method:* four decision layers matched to decision certainty, gated by testing and replay review. *Result:* 799.3 final, rank 1,150 of 6,807 (top 17%), after peaking at 937.4 early in the run. *What the ladder taught us:* hidden opponent cards fall from 59 to 18 by the time their deck is down to eight; games that get there are won 71%, the rest 25%; earlier builds whose search visibly fired converted that regime about 7 points better than the final build, which shipped without search (different builds, not a controlled test). *Post-deadline:* in a predeclared test of 300 thin-deck positions, revealing the sampled hidden configuration gained only +0.8 points, and an exploratory follow-up found about one-fifth the forecast error of early-game positions.
 
 ## 1. Why this strategy: make imperfect information act like perfect information
 
@@ -97,7 +97,9 @@ All numbers here come from Kaggle's episode records for our 81 entries (7,006 ga
 
 ## 6. Performance, what the ladder falsified, and what is open
 
-*Performance.* Final entry 799.3, rank 1,150 of 6,807; the best Great Tusk entry scored 872.2 (19 July build); both active entries converged within 12 points.
+*Performance.* Final entry 799.3, rank 1,150 of 6,807. It peaked at 937.4 in its first days (leaderboard observation; the episode API returns only the last 1,000 games per entry, where the high was 829.2), and both active entries converged within 12 points (Figure 15).
+
+![Figure 15: rating after each game for the two final entries, 21–31 August](images/15_final_rating_trajectory.png)
 
 *Falsified.* Our proxy league had the shipped line at 63.7% against Grimmsnarl and 77.9% against Fighting-ex aggro; the ladder says 52% and 62%. Reproduced public decks driven by our rollout policy are weaker than the live agents behind them.
 
