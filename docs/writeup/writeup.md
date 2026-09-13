@@ -97,7 +97,7 @@ All numbers here come from Kaggle's episode records for our 81 entries (7,006 ga
 
 ## 6. Performance, what the ladder falsified, and what is open
 
-*Performance.* Final entry 799.3, rank 1,150 of 6,807. It peaked at 937.4 in its first days (leaderboard observation; the episode API returns only the last 1,000 games per entry, where the high was 829.2), and both active entries converged within 12 points (Figure 15).
+*Performance.* Final entry 799.3, rank 1,150 of 6,807. It peaked at 937.4 in its first days (leaderboard observation; the episode API returns only the last 1,000 games per entry, where the high was 829.2), and both active entries converged within 12 points (Figure 15). Kaggle ratings start at 600 and climb while a new entry is matched against weaker or newer entries; the early peak reflects that phase, the settled value reflects play against similar-rated opponents, which is why Section 5 reads daily win rate against pool composition rather than the rating itself.
 
 ![Figure 15: rating after each game for the two final entries, 21–31 August](images/15_final_rating_trajectory.png)
 
