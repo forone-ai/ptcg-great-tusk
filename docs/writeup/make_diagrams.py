@@ -67,7 +67,7 @@ rows = [
          body="Deck-out countdown and Prize race;\nexact outs by hypergeometric count",
          tool="Race calculator\n(closed-form, no search)"),
     dict(fc=AQUA_L, ec=AQUA, tag="2 · Near-perfect information",
-         body="Endgame: both decks thin, hidden\ninformation barely matters",
+         body="Endgame: either deck at 14 cards or\nfewer; hidden information barely matters",
          tool="Let the search play it\nout (endgame PUCT)"),
     dict(fc=ORANGE_L, ec=ORANGE, tag="3 · Genuinely uncertain",
          body="Mid-game board state with real\nhidden information on both sides",
