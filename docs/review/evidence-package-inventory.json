@@ -1,0 +1,8 @@
+{
+  "archive": "experiment-evidence.tar.gz",
+  "bytes": 71443928,
+  "sha256": "a0cd803992af7a1fb1bf1a025c2239be360f3b67f7148c1b1193e4a024adbc0d",
+  "files": 139,
+  "contains_third_party_engine_or_agent_source_archive": false,
+  "contains_all_confirmatory_raw_outcomes": true
+}
