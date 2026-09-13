@@ -1,0 +1,111 @@
+[public_ryotasueyoshi_best5                ] W3/D0/L3/E0 (alakazam_control)
+[public_masamikobayashi_cynthia_garchomp_v1] W6/D0/L0/E0 (cynthia_garchomp_fighting)
+[public_naoto714_archeops_draw_v1          ] W5/D0/L1/E0 (archeops_devolve_fighting)
+[public_makthanithin_1084                  ] W3/D0/L3/E0 (baseline)
+[own_alakazam_v56_lb934                    ] W2/D0/L4/E0 (alakazam_own_lb934)
+[pub_borealis27_elo1150                    ] W5/D0/L1/E0 (Mega Lucario ex)
+[pub_skarin_dragapult                      ] W3/D0/L3/E0 (Dreepy)
+[pub_romanrozen_v10                        ] W6/D0/L0/E0 (Mega Lucario ex)
+[pub_multiply_940                          ] W5/D0/L1/E0 (Riolu)
+[pub_kiyotah_iono                          ] W0/D0/L6/E0 (Iono’s Voltorb)
+[pub_dicer992_archaludon                   ] W3/D0/L3/E0 (Duraludon)
+[pub_aman_crustle                          ] W5/D0/L1/E0 (Riolu)
+[pub_emanuellcs_deckaware                  ] W5/D0/L1/E0 (Dreepy)
+[pub_yukichacha_venusaur                   ] W4/D2/L0/E0 (Bulbasaur)
+[pub_souta_elo1208                         ] W4/D0/L2/E0 (crustle_great_tusk_libraryout)
+[pub_prvsiyan_grimmsnarl_bc                ] W6/D0/L0/E0 (grimmsnarl_darkness_froslass)
+[pub_prvsiyan_alakazam_ladder              ] W4/D0/L2/E0 (alakazam_ladder_disruption)
+[lp_masat_tank_crustle                     ] W6/D0/L0/E0 (crustle_tank_heal)
+[pub_pixiux_tank                           ] W0/D0/L6/E0 (crustle_tank_solo)
+[pub_naoto714_wall                         ] W2/D0/L4/E0 (crustle_wall_pub)
+[pub_harukiharada_wall                     ] W4/D0/L2/E0 (crustle_wall_pub)
+[pub_map1e_tank                            ] W3/D0/L3/E0 (crustle_tank_q)
+[pub_kiyotah_abomasnow                     ] W5/D0/L1/E0 (abomasnow)
+[pub_naoto714_rocket_kangaskhan            ] W5/D0/L1/E0 (rocket_kangaskhan)
+[pub_prvsiyan_tusk1208_v24                 ] W4/D0/L2/E0 (tusk_crustle_lo_mirror)
+[pub_lucifer19_battlecore                  ] W3/D0/L3/E0 (archaludon_or_alakazam_challenger)
+[pub_mechi22_alakazam_skeleton             ] W5/D0/L1/E0 (alakazam_skeleton)
+[pub_aristophanivan_improved_prob          ] W5/D0/L1/E0 (probabilistic_expectimax)
+[pub_daniilkrasnovvv_conservative          ] W3/D0/L3/E0 (conservative_probabilistic)
+[pub_dedquoc_rule_engine                   ] W6/D0/L0/E0 (generic_rule_engine)
+[pub_jazivxt_archaludon_metal_gpu          ] W6/D0/L0/E0 (archaludon_metal_gpu)
+[pub_jazivxt_crustle_counter               ] W6/D0/L0/E0 (crustle_counter_al220)
+[pub_jazivxt_garchomp_gpu                  ] W4/D0/L2/E0 (garchomp_gpu)
+[pub_jazivxt_rising_tide                   ] W5/D0/L1/E0 (fixed_metal_v15)
+[pub_naoto714_kangaskhan_turn2             ] W6/D0/L0/E0 (rocket_kangaskhan_turn2)
+[pub_raunakdey07_advanced_heuristic        ] W4/D0/L2/E0 (advanced_heuristic)
+[pub_tientrum_search_alakazam              ] W1/D0/L5/E0 (search_augmented_alakazam)
+[sweep_stealthtechnologies_dragapult       ] W3/D0/L3/E0 (Dragapult)
+[sweep_aristophanivan_probability          ] W2/D0/L4/E0 (probabilistic_expectimax)
+[sweep_yukichacha_venusaur_v1              ] W3/D3/L0/E0 (Bulbasaur)
+[sweep_yukichacha_venusaur_v2              ] W1/D5/L0/E0 (Bulbasaur)
+[sweep_biohack44_crustle_counter           ] W2/D0/L4/E0 (crustle_counter)
+[sweep_dashimaki360_crustle_counter        ] W1/D0/L5/E0 (crustle_counter)
+[sweep_zoli800_dragapult_tempo             ] W5/D0/L1/E0 (Dreepy)
+[pub_tetsutani_grimmsnarl                  ] W1/D0/L5/E0 (grimmsnarl_froslass_chip)
+[pub_prvsiyan_alakazam_v21                 ] W3/D0/L3/E0 (alakazam_ladder_v21)
+[pub_pllinas_archaludon                    ] W2/D0/L4/E0 (archaludon_steel_pllinas)
+[pub_kityugin_mega_lucario                 ] W4/D0/L2/E0 (mega_lucario_kityugin)
+[pub_sue124_alakazam                       ] W5/D0/L1/E0 (alakazam_fast_setup)
+[own_v17a_mirror                           ] W6/D0/L0/E0 (crustle_great_tusk_lo_mirror)
+[llccqq624_marniebelief                    ] W6/D0/L0/E0 (darkness_marnie_munkidori)
+[kokinnwakashuu_diary_day4                 ] W3/D0/L3/E0 (mega_lucario_hariyama)
+[pub_sushanth_alakazam_hybrid              ] W5/D0/L1/E0 (alakazam_hybrid_ladder_like)
+
+===== PROXY LEAGUE SUMMARY =====
+  W0/D0/L6/E0  pub_kiyotah_iono [Iono’s Voltorb]
+  W0/D0/L6/E0  pub_pixiux_tank [crustle_tank_solo]
+  W1/D0/L5/E0  pub_tetsutani_grimmsnarl [grimmsnarl_froslass_chip]
+  W1/D0/L5/E0  pub_tientrum_search_alakazam [search_augmented_alakazam]
+  W1/D0/L5/E0  sweep_dashimaki360_crustle_counter [crustle_counter]
+  W2/D0/L4/E0  own_alakazam_v56_lb934 [alakazam_own_lb934]
+  W2/D0/L4/E0  pub_naoto714_wall [crustle_wall_pub]
+  W2/D0/L4/E0  pub_pllinas_archaludon [archaludon_steel_pllinas]
+  W2/D0/L4/E0  sweep_aristophanivan_probability [probabilistic_expectimax]
+  W2/D0/L4/E0  sweep_biohack44_crustle_counter [crustle_counter]
+  W3/D0/L3/E0  kokinnwakashuu_diary_day4 [mega_lucario_hariyama]
+  W3/D0/L3/E0  pub_daniilkrasnovvv_conservative [conservative_probabilistic]
+  W3/D0/L3/E0  pub_dicer992_archaludon [Duraludon]
+  W3/D0/L3/E0  pub_lucifer19_battlecore [archaludon_or_alakazam_challenger]
+  W3/D0/L3/E0  pub_map1e_tank [crustle_tank_q]
+  W3/D0/L3/E0  pub_prvsiyan_alakazam_v21 [alakazam_ladder_v21]
+  W3/D0/L3/E0  pub_skarin_dragapult [Dreepy]
+  W3/D0/L3/E0  public_makthanithin_1084 [baseline]
+  W3/D0/L3/E0  public_ryotasueyoshi_best5 [alakazam_control]
+  W3/D0/L3/E0  sweep_stealthtechnologies_dragapult [Dragapult]
+  W1/D5/L0/E0  sweep_yukichacha_venusaur_v2 [Bulbasaur]
+  W4/D0/L2/E0  pub_harukiharada_wall [crustle_wall_pub]
+  W4/D0/L2/E0  pub_jazivxt_garchomp_gpu [garchomp_gpu]
+  W4/D0/L2/E0  pub_kityugin_mega_lucario [mega_lucario_kityugin]
+  W4/D0/L2/E0  pub_prvsiyan_alakazam_ladder [alakazam_ladder_disruption]
+  W4/D0/L2/E0  pub_prvsiyan_tusk1208_v24 [tusk_crustle_lo_mirror]
+  W4/D0/L2/E0  pub_raunakdey07_advanced_heuristic [advanced_heuristic]
+  W4/D0/L2/E0  pub_souta_elo1208 [crustle_great_tusk_libraryout]
+  W3/D3/L0/E0  sweep_yukichacha_venusaur_v1 [Bulbasaur]
+  W5/D0/L1/E0  pub_aman_crustle [Riolu]
+  W5/D0/L1/E0  pub_aristophanivan_improved_prob [probabilistic_expectimax]
+  W5/D0/L1/E0  pub_borealis27_elo1150 [Mega Lucario ex]
+  W5/D0/L1/E0  pub_emanuellcs_deckaware [Dreepy]
+  W5/D0/L1/E0  pub_jazivxt_rising_tide [fixed_metal_v15]
+  W5/D0/L1/E0  pub_kiyotah_abomasnow [abomasnow]
+  W5/D0/L1/E0  pub_mechi22_alakazam_skeleton [alakazam_skeleton]
+  W5/D0/L1/E0  pub_multiply_940 [Riolu]
+  W5/D0/L1/E0  pub_naoto714_rocket_kangaskhan [rocket_kangaskhan]
+  W5/D0/L1/E0  pub_sue124_alakazam [alakazam_fast_setup]
+  W5/D0/L1/E0  pub_sushanth_alakazam_hybrid [alakazam_hybrid_ladder_like]
+  W4/D2/L0/E0  pub_yukichacha_venusaur [Bulbasaur]
+  W5/D0/L1/E0  public_naoto714_archeops_draw_v1 [archeops_devolve_fighting]
+  W5/D0/L1/E0  sweep_zoli800_dragapult_tempo [Dreepy]
+  W6/D0/L0/E0  llccqq624_marniebelief [darkness_marnie_munkidori]
+  W6/D0/L0/E0  lp_masat_tank_crustle [crustle_tank_heal]
+  W6/D0/L0/E0  own_v17a_mirror [crustle_great_tusk_lo_mirror]
+  W6/D0/L0/E0  pub_dedquoc_rule_engine [generic_rule_engine]
+  W6/D0/L0/E0  pub_jazivxt_archaludon_metal_gpu [archaludon_metal_gpu]
+  W6/D0/L0/E0  pub_jazivxt_crustle_counter [crustle_counter_al220]
+  W6/D0/L0/E0  pub_naoto714_kangaskhan_turn2 [rocket_kangaskhan_turn2]
+  W6/D0/L0/E0  pub_prvsiyan_grimmsnarl_bc [grimmsnarl_darkness_froslass]
+  W6/D0/L0/E0  pub_romanrozen_v10 [Mega Lucario ex]
+  W6/D0/L0/E0  public_masamikobayashi_cynthia_garchomp_v1 [cynthia_garchomp_fighting]
+TOTAL: W204/D10/L104/E0; completed=318/318; WDL=65.7%
+out=/private/tmp/ab16j/full/asis_all.json
+meta=/private/tmp/ab16j/full/asis_all.json.meta.json
