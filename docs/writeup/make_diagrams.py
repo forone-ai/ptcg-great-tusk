@@ -116,7 +116,7 @@ cols = [
     dict(x=0.1, fc=BLUE_L, ec=BLUE, title="Real damage,\ncheap to give up",
          body="Great Tusk ×4 — Basic,\n140 HP. Land Collapse\nmills 1–4 cards a turn;\nGiant Tusk hits 160.\nNon-Rule-Box: only\n1 Prize to KO it."),
     dict(x=2.55, fc=AQUA_L, ec=AQUA, title="A wall that\nsearches itself",
-         body="Dwebble ×4 → Crustle ×4.\nAscension tutors the\nevolution from the deck\n(thins it). Crustle: ex attacks\ndo no damage; 120 dmg\nignores Active effects."),
+         body="Dwebble ×4 → Crustle ×4.\nAscension tutors the\nevolution from the deck\n(thins it).\nCrustle: ex attacks\ndo no damage; 120 dmg\nignores effects on\nthe Active."),
     dict(x=5.0, fc=ORANGE_L, ec=ORANGE, title="Take away their\nturn, not their HP",
          body="Crushing Hammer ×2\n(energy denial), Xerosic's\nMachinations ×2 (hand\nto 3), Budew ×1 (Item\nlock), Jumbo Ice Cream\n×2 (heal 80)."),
     dict(x=7.45, fc=YELLOW_L, ec=YELLOW, title="Make their ex/V\nswing for nothing",
