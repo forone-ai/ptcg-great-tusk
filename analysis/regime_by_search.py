@@ -1,4 +1,4 @@
-"""Ladder test: does search convert the thin-deck regime into wins? Compare P(win | reached regime) for games where the agent visibly searched (any decision > 2.5 s) vs games where it did not."""
+"""Ladder test: does search convert the thin-deck regime into wins? Compare P(win | reached regime) for games where the agent visibly searched (any decision > 1.5 s; the search cap was 2 s from late July, so 2.5 s never fires) vs games where it did not."""
 import json, glob, csv, os
 from collections import defaultdict
 BASE='/tmp/kaggle_eps'
@@ -20,7 +20,7 @@ for d in glob.glob(BASE+'/*/replays'):
             if t is not None:
                 if prev is not None and s[ui]['status']=='ACTIVE': maxthink=max(maxthink, prev-t)
                 prev=t
-        rows.append(dict(sid=sid, date=subs.get(sid,{}).get('date','')[:10], win=g['rewards'][ui]==1, reached=mn_opp<=8, maxthink=maxthink, searched=maxthink>2.5, final=sid in ('55565056','55565424')))
+        rows.append(dict(sid=sid, date=subs.get(sid,{}).get('date','')[:10], win=g['rewards'][ui]==1, reached=mn_opp<=8, maxthink=maxthink, searched=maxthink>1.5, final=sid in ('55565056','55565424')))
 print("games:", len(rows), "| final-entry:", sum(r['final'] for r in rows), "| earlier:", sum(1 for r in rows if not r['final']))
 def summarize(label, rs):
     n=len(rs); 
@@ -29,7 +29,7 @@ def summarize(label, rs):
     print(f"{label}: n={n} W%={100*sum(r['win'] for r in rs)/n:.1f} | reached regime {100*len(reach)/n:.0f}% -> W% {100*sum(r['win'] for r in reach)/max(1,len(reach)):.1f} (n={len(reach)}) | not reached -> W% {100*sum(r['win'] for r in no)/max(1,len(no)):.1f} (n={len(no)})")
 earlier=[r for r in rows if not r['final']]
 summarize("FINAL build (no search)", [r for r in rows if r['final']])
-summarize("EARLIER builds, search visible (max think>2.5s)", [r for r in earlier if r['searched']])
+summarize("EARLIER builds, search visible (max think>1.5s)", [r for r in earlier if r['searched']])
 summarize("EARLIER builds, no visible search", [r for r in earlier if not r['searched']])
 # by submission (earlier), show search share
 bysid=defaultdict(list)

@@ -1,0 +1,41 @@
+games: 3770 | final-entry: 1999 | earlier: 1771
+FINAL build (no search): n=1999 W%=54.0 | reached regime 63% -> W% 70.8 (n=1261) | not reached -> W% 25.3 (n=738)
+EARLIER builds, search visible (max think>1.5s): n=1135 W%=58.7 | reached regime 67% -> W% 78.1 (n=757) | not reached -> W% 19.8 (n=378)
+EARLIER builds, no visible search: n=636 W%=42.9 | reached regime 50% -> W% 69.5 (n=321) | not reached -> W% 15.9 (n=315)
+
+per earlier submission: date, n, searched%, W%, P(win|reach), P(win|no reach)
+  55130697 2026-07-31 n= 73 searched= 71% W%= 47.9 | reach  60% W|reach= 72.7 W|no= 10.3 submission.tar.gz
+  55179890 2026-08-02 n= 64 searched= 73% W%= 56.2 | reach  66% W|reach= 81.0 W|no=  9.1 submission.tar.gz
+  55185266 2026-08-02 n= 71 searched= 80% W%= 56.3 | reach  70% W|reach= 78.0 W|no=  4.8 submission.tar.gz
+  55202117 2026-08-03 n= 96 searched= 71% W%= 51.0 | reach  57% W|reach= 78.2 W|no= 14.6 submission.tar.gz
+  55222798 2026-08-03 n= 71 searched= 44% W%= 53.5 | reach  65% W|reach= 71.7 W|no= 20.0 submission_v11.tar.gz
+  55263688 2026-08-05 n= 53 searched= 53% W%= 52.8 | reach  62% W|reach= 84.8 W|no=  0.0 submission_v12.tar.gz
+  55290594 2026-08-06 n= 42 searched= 55% W%= 54.8 | reach  67% W|reach= 75.0 W|no= 14.3 submission_v15a.tar.gz
+  55296184 2026-08-06 n= 66 searched= 47% W%= 42.4 | reach  59% W|reach= 66.7 W|no=  7.4 submission_16_16b.tar.
+  55296176 2026-08-06 n= 64 searched= 55% W%= 53.1 | reach  58% W|reach= 78.4 W|no= 18.5 submission_16_16a.tar.
+  55290599 2026-08-06 n= 44 searched= 48% W%= 54.5 | reach  68% W|reach= 76.7 W|no=  7.1 submission_v15b.tar.gz
+  55285480 2026-08-06 n= 34 searched= 41% W%= 55.9 | reach  68% W|reach= 69.6 W|no= 27.3 submission_v13.tar.gz
+  55325225 2026-08-07 n= 70 searched= 53% W%= 45.7 | reach  50% W|reach= 80.0 W|no= 11.4 submission_v17b.tar.gz
+  55325216 2026-08-07 n= 79 searched= 68% W%= 50.6 | reach  53% W|reach= 71.4 W|no= 27.0 submission_v17a.tar.gz
+  55374044 2026-08-09 n= 35 searched= 46% W%= 62.9 | reach  60% W|reach= 85.7 W|no= 28.6 submission_v20_1.tar.g
+  55365729 2026-08-09 n= 36 searched= 42% W%= 55.6 | reach  61% W|reach= 72.7 W|no= 28.6 submission_v18_17a.tar
+  55375125 2026-08-09 n= 40 searched= 40% W%= 55.0 | reach  50% W|reach= 75.0 W|no= 35.0 submission_v21.tar.gz
+  55365730 2026-08-09 n= 44 searched= 43% W%= 54.5 | reach  61% W|reach= 66.7 W|no= 35.3 submission_v18_17b.tar
+  55383804 2026-08-09 n= 85 searched= 54% W%= 47.1 | reach  61% W|reach= 69.2 W|no= 12.1 submission_v25.tar.gz
+  55392200 2026-08-10 n= 81 searched= 54% W%= 51.9 | reach  60% W|reach= 71.4 W|no= 21.9 submission_v28j.tar.gz
+  55440252 2026-08-11 n= 48 searched= 69% W%= 56.2 | reach  73% W|reach= 65.7 W|no= 30.8 submission_v29_4.tar.g
+  55432285 2026-08-11 n= 30 searched= 77% W%= 50.0 | reach  73% W|reach= 63.6 W|no= 12.5 submission_20260811_pu
+  55437926 2026-08-11 n= 58 searched= 81% W%= 51.7 | reach  60% W|reach= 77.1 W|no= 13.0 submission_v29_1.tar.g
+  55487764 2026-08-13 n= 52 searched= 83% W%= 51.9 | reach  44% W|reach= 78.3 W|no= 31.0 submission_v29_8.tar.g
+  55473320 2026-08-13 n= 46 searched= 74% W%= 58.7 | reach  72% W|reach= 81.8 W|no=  0.0 submission_v29_6.tar.g
+  55504795 2026-08-14 n= 29 searched= 90% W%= 65.5 | reach  55% W|reach= 87.5 W|no= 38.5 submission_v29_14a.tar
+  55510394 2026-08-14 n= 46 searched= 85% W%= 50.0 | reach  52% W|reach= 83.3 W|no= 13.6 submission_v29_15b.tar
+  55501232 2026-08-14 n= 33 searched= 85% W%= 63.6 | reach  64% W|reach= 90.5 W|no= 16.7 submission_v29_11.tar.
+  55505280 2026-08-14 n= 38 searched= 89% W%= 50.0 | reach  61% W|reach= 69.6 W|no= 20.0 submission_v29_14a_bel
+  55502237 2026-08-14 n= 30 searched= 93% W%= 66.7 | reach  73% W|reach= 81.8 W|no= 25.0 submission_v29_11_beli
+  55515938 2026-08-15 n= 40 searched= 85% W%= 55.0 | reach  48% W|reach= 84.2 W|no= 28.6 submission_v29_15b_bel
+  55530425 2026-08-15 n= 27 searched= 70% W%= 48.1 | reach  59% W|reach= 68.8 W|no= 18.2 submission_v29_16.tar.
+  55524534 2026-08-15 n= 47 searched= 94% W%= 46.8 | reach  60% W|reach= 71.4 W|no= 10.5 submission_v29_15b_bel
+  55546161 2026-08-16 n= 40 searched= 48% W%= 65.0 | reach  65% W|reach= 88.5 W|no= 21.4 submission_v28j_reviva
+  55546126 2026-08-16 n= 31 searched= 97% W%= 51.6 | reach  71% W|reach= 68.2 W|no= 11.1 submission_v29_16c.tar
+  55562198 2026-08-16 n= 28 searched=  0% W%= 57.1 | reach  64% W|reach= 72.2 W|no= 30.0 submission_v29_16h.tar

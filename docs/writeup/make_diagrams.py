@@ -64,14 +64,14 @@ gap = 0.5
 top = 10.5
 rows = [
     dict(fc=BLUE_L, ec=BLUE, tag="1 · Deterministic math",
-         body="Deck-out countdown and Prize race;\nexact outs by hypergeometric count",
-         tool="Race calculator\n(closed-form, no search)"),
+         body="Deck-out and Prize race estimated\nfrom card counts and observed pace",
+         tool="Rule-based accounting\n(no search)"),
     dict(fc=AQUA_L, ec=AQUA, tag="2 · Near-perfect information",
          body="Endgame: either deck at 14 cards or\nfewer; hidden information barely matters",
          tool="Let the search play it\nout (endgame PUCT)"),
     dict(fc=ORANGE_L, ec=ORANGE, tag="3 · Genuinely uncertain",
          body="Mid-game board state with real\nhidden information on both sides",
-         tool="Trained leaf evaluator\n(2 profiles: press / grind)"),
+         tool="Learned evaluator scores\nunfinished continuations"),
     dict(fc=YELLOW_L, ec=YELLOW, tag="4 · Strategic macro-choice",
          body="Race for prizes vs. race for\nthe opponent's deck-out",
          tool="Discrete rule flag,\nnot a learned continuum"),
@@ -86,11 +86,11 @@ for i, r in enumerate(rows):
 last_row_y = top - (len(rows) - 1) * (row_h + gap)
 footer_y = last_row_y - 0.45
 ax.text(0.1, footer_y,
-        "Layers 1-2-4 stay deterministic and inspectable; layer 3 is the only place a learned\n"
-        "model is allowed to operate. Three rejected upgrades (GBDT, policy clone, value net)\n"
-        "all targeted layer 3 and all failed controlled A/B tests — evidence the bottleneck was\n"
-        "never leaf-evaluation quality. The one confirmed win, endgame PUCT, targeted layer 2:\n"
-        "restructuring search where information is most complete.",
+        "Layers 1 and 4 are rules and stay inspectable; the learned evaluator scores unfinished\n"
+        "continuations in layers 2 and 3. Three rejected upgrades (GBDT, policy clone, value net)\n"
+        "all targeted the evaluator and none improved our benchmark in controlled A/B tests.\n"
+        "The one confirmed win in our league, endgame PUCT, targeted layer 2: restructuring\n"
+        "search where hidden information is smallest.",
         fontsize=8.6, color=INK2, linespacing=1.6, va="top")
 
 fig.savefig(os.path.join(OUT, "04_confidence_ladder.png"), facecolor=SURFACE, bbox_inches="tight", pad_inches=0.25)
@@ -116,7 +116,7 @@ cols = [
     dict(x=0.1, fc=BLUE_L, ec=BLUE, title="Real damage,\ncheap to give up",
          body="Great Tusk ×4 — Basic,\n140 HP. Land Collapse\nmills 1–4 cards a turn;\nGiant Tusk hits 160.\nNon-Rule-Box: only\n1 Prize to KO it."),
     dict(x=2.55, fc=AQUA_L, ec=AQUA, title="A wall that\nsearches itself",
-         body="Dwebble ×4 → Crustle ×4.\nAscension tutors the\nevolution from the deck\n(thins it). Crustle: ex\nattacks deal 0; 120 dmg\nignores Active effects."),
+         body="Dwebble ×4 → Crustle ×4.\nAscension tutors the\nevolution from the deck\n(thins it). Crustle: ex attacks\ndo no damage; 120 dmg\nignores Active effects."),
     dict(x=5.0, fc=ORANGE_L, ec=ORANGE, title="Take away their\nturn, not their HP",
          body="Crushing Hammer ×2\n(energy denial), Xerosic's\nMachinations ×2 (hand\nto 3), Budew ×1 (Item\nlock), Jumbo Ice Cream\n×2 (heal 80)."),
     dict(x=7.45, fc=YELLOW_L, ec=YELLOW, title="Make their ex/V\nswing for nothing",
@@ -132,9 +132,9 @@ for c in cols:
 for c in cols:
     arrow(ax, (c["x"] + 1.1, 3.55), (5.0, 2.5), color=MUTED)
 
-box(ax, (2.2, 1.15), 5.6, 1.35,
-    "Outcome: the opponent runs out of deck\nbefore Great Tusk / Crustle run out of ways to survive",
-    "#ffffff", INK2, fs=9.4, weight="bold", radius=0.1)
+box(ax, (1.4, 1.15), 7.2, 1.35,
+    "Outcome: the opponent runs out of deck\nbefore Great Tusk and Crustle run out of ways to survive",
+    "#ffffff", INK2, fs=9.2, weight="bold", radius=0.1)
 
 ax.text(0.1, 0.75,
         "Support engine (Poké Pad, Explorer's Guidance, Lillie's Determination, Counter Gain, Switch,\n"
