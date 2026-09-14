@@ -67,7 +67,7 @@ The evaluator variants we tested did not improve our benchmark, which moved effo
 
 All numbers here come from Kaggle's episode records for our 81 entries (7,006 games; 4,852 across 51 Great Tusk builds).
 
-**H0: the information really shrinks.** Three thresholds below are distinct: the *regime* is the opponent's deck at eight or fewer cards; the post-deadline test uses fewer than 15 hidden opponent cards; search switches on when either deck is at most 14. Figure 9 counts, turn by turn across 1,999 final-entry games, how many of the opponent's 60 cards we cannot see (deck + hand + remaining Prizes): 59 on turn 1, 25 by turn 15, 18 when their deck reaches eight — by then, given a known 60-card list, what stays hidden is only how the remaining cards split between hand and Prizes.
+**H0: the information really shrinks.** Three thresholds below are distinct: the *regime* is the opponent's deck at eight or fewer cards; the post-deadline test uses fewer than 15 hidden opponent cards; search switches on when either deck is at most 14. Figure 9 counts, turn by turn across 1,999 final-entry games, how many of the opponent's 60 cards we cannot see (deck + hand + remaining Prizes): 59 on turn 1, 25 by turn 15, 18 when their deck reaches eight — by then, given a known 60-card list, what stays hidden is how the remaining cards split between deck, hand and Prizes, and the order of those eight.
 
 ![Figure 9](images/11_hidden_info.png)
 

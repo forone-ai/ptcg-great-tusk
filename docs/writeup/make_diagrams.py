@@ -56,7 +56,7 @@ ax.axis("off")
 
 ax.text(0.1, 12.75, "The confidence ladder: match the tool to how certain the decision is",
         fontsize=13.5, weight="bold", color=INK)
-ax.text(0.1, 12.25, "Every in-game decision is routed to exactly one layer — never solved twice, never guessed where it can be computed.",
+ax.text(0.1, 12.25, "Rules rank every candidate; search re-checks the choice only where its gate is met, the evaluator scores unfinished continuations.",
         fontsize=9.3, color=INK2)
 
 row_h = 1.4
