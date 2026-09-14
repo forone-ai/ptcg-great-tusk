@@ -1,0 +1,24 @@
+{
+  "seed": 20260914,
+  "per_band_target": 400,
+  "available_replays": 1999,
+  "selection": "one uniform eligible MAIN decision per game per band; no reward conditioning",
+  "bands": {
+    "low": "H<15",
+    "mid": "15<=H<35",
+    "high": "H>=35"
+  },
+  "counts": {
+    "pilot:low": 5,
+    "pilot:mid": 18,
+    "pilot:high": 18,
+    "confirmatory:mid": 400,
+    "confirmatory:high": 400,
+    "confirmatory:low": 400
+  },
+  "unique_games": 690,
+  "excluded": {
+    "previously_examined_game": 20
+  },
+  "manifest_sha256": "64eba5fc636c42785d195768999cd70a9a1fd913ff92cb3b01c5865cf5385d5b"
+}

@@ -1,0 +1,29 @@
+Post-hoc secondary analysis of terminal-score prediction error. Smaller mean squared error (MSE) means that the outcome scores are easier to forecast with this finite predictor; this is not a binary Brier score or a test of true winning-probability calibration. The displayed predictor does not observe the held-out world configuration. For every action, worlds are divided by zero-based index parity and repeats by zero-based index parity, yielding four symmetric held-out folds. The forecast is the mean score from the other eight worlds and the opposite 16 repeats (128 training cells). Each held-out world/repeat score is evaluated exactly once. Action errors are averaged equally within position, then positions/games equally within band. The x-axis runs from high to low H; H is opposing deck count plus hand count plus remaining Prize count, not entropy.
+
+Panel A includes all 900 sampled positions, 300 in each band. The 185 unresolved continuation cells occur in two positions (one middle, one high). Every unresolved training score and test score is bounded in [0,1]; lower and upper MSE bounds propagate uncertainty through both the forecast mean and squared test error. No unresolved score is assigned a loss. Points show the midpoint of the mean bounds, whose widths are visually very small. Whiskers are the lower 2.5th percentile endpoint for the lower bound and upper 97.5th percentile endpoint for the upper bound, from 4,000 game-cluster bootstrap resamples with fixed seed 2026091461.
+
+Panel B is a post-hoc complete-case subset excluding positions where every action/world/repeat cell won or every cell lost. Unresolved positions are excluded. The denominators are high 297, middle 220 and low 95. This subset check reduces the contribution of completely saturated outcomes; selection into it is itself outcome-dependent and is not causal adjustment.
+
+all900_with_unresolved_bounds:
+
+high: n=300; MSE mean bounds=[0.12147832564874123, 0.12158712379498908]; outer 95% bootstrap limits=[0.11136770176331033, 0.13175651088048473].
+
+mid: n=300; MSE mean bounds=[0.08287067857024877, 0.08289038244192276]; outer 95% bootstrap limits=[0.07270348179001485, 0.09341153512983986].
+
+low: n=300; MSE mean bounds=[0.025444446931612387, 0.025444446931612387]; outer 95% bootstrap limits=[0.01886632212404451, 0.032451535331520565].
+
+complete_nonsaturated_posthoc:
+
+high: n=297; MSE mean bounds=[0.12259968479437888, 0.12259968479437888]; outer 95% bootstrap limits=[0.11260591051247354, 0.1324880836466275].
+
+mid: n=220; MSE mean bounds=[0.1128747642939444, 0.1128747642939444]; outer 95% bootstrap limits=[0.1011667805356678, 0.12510722847135305].
+
+low: n=95; MSE mean bounds=[0.08035088504719701, 0.08035088504719701]; outer 95% bootstrap limits=[0.06344289780322189, 0.09790516188454865].
+
+Supplementary paired same-game contrast, paired_high_minus_low_complete: n=116; high minus low MSE=[0.10189798752241434, 0.10189798752241434]; 95% interval=[0.0833643424633149, 0.1202350723878088].
+
+Supplementary paired same-game contrast, paired_high_minus_low_both_nonsaturated_posthoc: n=42; high minus low MSE=[0.04747870967599982, 0.04747870967599982]; 95% interval=[0.015189610118350889, 0.08056977986748798].
+
+All comparisons describe associations among sampled positions under fixed continuation policies and supplied complete decklists; neither H nor visibility was randomized across positions. Different game phases, action sets, matchup composition, saturation and residual world-sampling limitations can influence the pattern. Auxiliary same-world predictor results are saved in summary.json: that predictor uses 16 training repeats rather than the hidden predictor’s 128 training cells, so its gain also reflects different estimation precision. It is not shown as the main result.
+
+Source: /Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/predictability-secondary/summary.json; SHA256=c43a3efe1a88fb7605d1f460dfd0244622a7c0b075f7f7688dd6f8798875818f. Source raw-file and metadata hashes are in input-hashes.json.

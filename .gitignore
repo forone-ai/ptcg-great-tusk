@@ -6,3 +6,5 @@ agent/opponents/
 *.tar.gz
 replays/
 .env
+__pycache__/
+*.pyc

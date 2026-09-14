@@ -1,0 +1,69 @@
+{
+  "description": "Pilot calibration uses dispersion, reference stability, saturation, and runtime. A saturated outcome is an empirical property of this finite continuation; it is not a proved forced win/loss.",
+  "by_band": {
+    "low": {
+      "independent_games": 300,
+      "game_difference_sd": 0.03622830331984795,
+      "reference_quality": {
+        "terminal_cell_fraction": 1.0,
+        "revealed_split_exact_action_agreement": 0.9777083333333333,
+        "revealed_split_best_set_overlap": 0.99,
+        "revealed_split_cross_optimal_agreement": 0.9834375,
+        "revealed_split_best_set_jaccard": 0.9757934553872051,
+        "revealed_training_tie_fraction": 0.9286458333333333
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "all_cells_identical": 205,
+        "all_cells_win": 183,
+        "all_cells_loss": 22,
+        "outcome_varies_across_cells": 95,
+        "actions_have_different_sample_mean": 93
+      }
+    },
+    "mid": {
+      "independent_games": 300,
+      "game_difference_sd": 0.044696988693023056,
+      "reference_quality": {
+        "terminal_cell_fraction": 0.9999815538194445,
+        "revealed_split_exact_action_agreement": 0.8025,
+        "revealed_split_best_set_overlap": 0.89625,
+        "revealed_split_cross_optimal_agreement": 0.84375,
+        "revealed_split_best_set_jaccard": 0.8044691483285237,
+        "revealed_training_tie_fraction": 0.7363541666666666
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "outcome_varies_across_cells": 220,
+        "actions_have_different_sample_mean": 220,
+        "all_cells_identical": 79,
+        "all_cells_win": 65,
+        "all_cells_loss": 14,
+        "positions_with_unresolved": 1
+      }
+    },
+    "high": {
+      "independent_games": 300,
+      "game_difference_sd": 0.03210994151652262,
+      "reference_quality": {
+        "terminal_cell_fraction": 0.9999016927083333,
+        "revealed_split_exact_action_agreement": 0.5166666666666667,
+        "revealed_split_best_set_overlap": 0.7297916666666666,
+        "revealed_split_cross_optimal_agreement": 0.6021875,
+        "revealed_split_best_set_jaccard": 0.5247988215488214,
+        "revealed_training_tie_fraction": 0.6007291666666666
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "outcome_varies_across_cells": 297,
+        "actions_have_different_sample_mean": 297,
+        "positions_with_unresolved": 1,
+        "all_cells_identical": 2,
+        "all_cells_win": 2
+      }
+    }
+  }
+}

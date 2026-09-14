@@ -1,0 +1,282 @@
+{
+  "completed_at_utc": "2026-09-13T21:09:11.716707+00:00",
+  "guard": {
+    "started_at_utc": "2026-09-13T19:17:15.031672+00:00",
+    "pid": 85720,
+    "command": [
+      "/Users/gonuts/projects/pokemon-tcg-ai-battle/.venv/bin/python",
+      "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/confirm-runtime-1/position_runner.py",
+      "--manifest",
+      "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/confirm-runtime-1/manifest.jsonl",
+      "--out",
+      "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/confirm-1",
+      "--phase",
+      "confirmatory",
+      "--per-band",
+      "300",
+      "--worlds",
+      "16",
+      "--repeats",
+      "32",
+      "--workers",
+      "8",
+      "--max-steps",
+      "1200",
+      "--position-time-limit",
+      "600",
+      "--seed",
+      "2026091401",
+      "--agent-root",
+      "/private/tmp/x16j_withopp_1789064695"
+    ],
+    "calculation_stop_utc": "2026-09-13T22:00:00+00:00",
+    "status": "finished",
+    "exit_code": 0,
+    "finished_at_utc": "2026-09-13T21:08:26.702584+00:00"
+  },
+  "counts": {
+    "complete": 900,
+    "terminal_rows": 2844999,
+    "error_rows": 185,
+    "tracking_errors": 0,
+    "prize_cards_masked": 1368904850,
+    "sanitized_observations": 145557189,
+    "cutoff_rows": 0,
+    "analysis_included_positions": 900,
+    "analysis_cell_rows": 2845184,
+    "cell_rows": 2845184
+  },
+  "selected_positions": 900,
+  "primary_identical_to_completed_300_game_snapshot": true,
+  "agent_files_unchanged_since_supplemental_inventory": true,
+  "primary_cohort_complete": true,
+  "complete_selected_cohort": true,
+  "primary": {
+    "reference": {
+      "margin": 0.05,
+      "low_definition": "hidden_count < 15",
+      "one_sided_95_upper_including_worst_case_unresolved": 0.011591959635416664,
+      "one_sided_95_upper_identified_pairs_only": 0.011591959635416664,
+      "statistical_margin_criterion_met": true,
+      "all_selected_low_positions_analysable": true,
+      "reference_quality_screen": {
+        "metric": "game-weighted split-half selected-action membership in the other half's tied-best set, averaged over both directions",
+        "value": 0.9834375,
+        "predeclared_minimum": 0.8,
+        "screen_passed": true,
+        "information_value_claim_unconfirmed_due_to_low_stability": false,
+        "warning": "The 0.80 default is a predeclared diagnostic screen, not a calibrated guarantee of oracle quality. Broad ties can inflate agreement; inspect tied-best-set overlap, Jaccard, tie fraction and terminal completion. Passing does not prove true-oracle equivalence."
+      },
+      "margin_and_stability_screen_met": true,
+      "coverage_warning": "Coverage here includes only positions appearing in the input. Compare against the frozen manifest, including generation failures and unstarted positions, before any conclusion.",
+      "interpretation": "Criterion concerns this finite-reference procedure only. It is NOT an upper bound on true perfect-information value; oracle misselection, missing positions, wrong worlds, or a weak continuation can create small gaps.",
+      "requires_quality_review": true
+    }
+  },
+  "bands": {
+    "low": {
+      "independent_games": 300,
+      "positions": 300,
+      "estimates": {
+        "delta_identified_pairs": 0.008004557291666667,
+        "delta_all_pairs_lower": 0.008004557291666667,
+        "delta_all_pairs_upper": 0.008004557291666667,
+        "identified_pair_fraction": 1.0,
+        "terminal_pair_fraction": 1.0,
+        "terminal_cell_fraction": 1.0,
+        "public_revealed_same_action_fraction": 0.9139583333333333,
+        "revealed_split_exact_action_agreement": 0.9777083333333333,
+        "revealed_split_best_set_overlap": 0.99,
+        "revealed_split_cross_optimal_agreement": 0.9834375,
+        "revealed_split_best_set_jaccard": 0.9757934553872051,
+        "revealed_training_tie_fraction": 0.9286458333333333
+      },
+      "intervals": {
+        "delta_identified_pairs": {
+          "two_sided_95": [
+            0.004254475911458333,
+            0.012226888020833333
+          ],
+          "one_sided_95_upper": 0.011591959635416664,
+          "one_sided_95_lower": 0.004837239583333333,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_lower": {
+          "two_sided_95": [
+            0.004254475911458333,
+            0.012226888020833333
+          ],
+          "one_sided_95_upper": 0.011591959635416664,
+          "one_sided_95_lower": 0.004837239583333333,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_upper": {
+          "two_sided_95": [
+            0.004254475911458333,
+            0.012226888020833333
+          ],
+          "one_sided_95_upper": 0.011591959635416664,
+          "one_sided_95_lower": 0.004837239583333333,
+          "bootstrap_replicates": 4000
+        }
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "all_cells_identical": 205,
+        "all_cells_win": 183,
+        "all_cells_loss": 22,
+        "outcome_varies_across_cells": 95,
+        "actions_have_different_sample_mean": 93
+      }
+    },
+    "mid": {
+      "independent_games": 300,
+      "positions": 300,
+      "estimates": {
+        "delta_identified_pairs": 0.021670049530228757,
+        "delta_all_pairs_lower": 0.021663411458333334,
+        "delta_all_pairs_upper": 0.021676432291666665,
+        "identified_pair_fraction": 0.9999869791666667,
+        "terminal_pair_fraction": 0.9999869791666667,
+        "terminal_cell_fraction": 0.9999815538194445,
+        "public_revealed_same_action_fraction": 0.6241666666666666,
+        "revealed_split_exact_action_agreement": 0.8025,
+        "revealed_split_best_set_overlap": 0.89625,
+        "revealed_split_cross_optimal_agreement": 0.84375,
+        "revealed_split_best_set_jaccard": 0.8044691483285237,
+        "revealed_training_tie_fraction": 0.7363541666666666
+      },
+      "intervals": {
+        "delta_identified_pairs": {
+          "two_sided_95": [
+            0.016822966133067812,
+            0.026813281888276145
+          ],
+          "one_sided_95_upper": 0.025979958129084966,
+          "one_sided_95_lower": 0.01751326976102941,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_lower": {
+          "two_sided_95": [
+            0.016816162109374998,
+            0.026806640625
+          ],
+          "one_sided_95_upper": 0.025973470052083333,
+          "one_sided_95_lower": 0.017506184895833332,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_upper": {
+          "two_sided_95": [
+            0.016829345703125,
+            0.026819824218750003
+          ],
+          "one_sided_95_upper": 0.025986490885416665,
+          "one_sided_95_lower": 0.017522623697916666,
+          "bootstrap_replicates": 4000
+        }
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "outcome_varies_across_cells": 220,
+        "actions_have_different_sample_mean": 220,
+        "all_cells_identical": 79,
+        "all_cells_win": 65,
+        "all_cells_loss": 14,
+        "positions_with_unresolved": 1
+      }
+    },
+    "high": {
+      "independent_games": 300,
+      "positions": 300,
+      "estimates": {
+        "delta_identified_pairs": 0.011365159665300547,
+        "delta_all_pairs_lower": 0.011276041666666667,
+        "delta_all_pairs_upper": 0.011451822916666667,
+        "identified_pair_fraction": 0.99984375,
+        "terminal_pair_fraction": 0.9998372395833334,
+        "terminal_cell_fraction": 0.9999016927083333,
+        "public_revealed_same_action_fraction": 0.3328125,
+        "revealed_split_exact_action_agreement": 0.5166666666666667,
+        "revealed_split_best_set_overlap": 0.7297916666666666,
+        "revealed_split_cross_optimal_agreement": 0.6021875,
+        "revealed_split_best_set_jaccard": 0.5247988215488214,
+        "revealed_training_tie_fraction": 0.6007291666666666
+      },
+      "intervals": {
+        "delta_identified_pairs": {
+          "two_sided_95": [
+            0.007805206465590847,
+            0.01492652034238388
+          ],
+          "one_sided_95_upper": 0.014362304687499999,
+          "one_sided_95_lower": 0.008457933102800547,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_lower": {
+          "two_sided_95": [
+            0.007685546875,
+            0.014824381510416667
+          ],
+          "one_sided_95_upper": 0.014283854166666667,
+          "one_sided_95_lower": 0.008375325520833332,
+          "bootstrap_replicates": 4000
+        },
+        "delta_all_pairs_upper": {
+          "two_sided_95": [
+            0.007902832031250001,
+            0.01501953125
+          ],
+          "one_sided_95_upper": 0.014446940104166665,
+          "one_sided_95_lower": 0.00854150390625,
+          "bootstrap_replicates": 4000
+        }
+      },
+      "saturation": {
+        "positions": 300,
+        "complete_positions": 300,
+        "outcome_varies_across_cells": 297,
+        "actions_have_different_sample_mean": 297,
+        "positions_with_unresolved": 1,
+        "all_cells_identical": 2,
+        "all_cells_win": 2
+      }
+    }
+  },
+  "high_minus_low": {
+    "status": "exploratory_secondary",
+    "paired_same_game_subset": {
+      "games": 116,
+      "high_minus_low": 0.0044029498922413795,
+      "two_sided_95": [
+        -0.005648908943965517,
+        0.013832039668642241
+      ],
+      "bootstrap_replicates": 4000
+    },
+    "unpaired_full_sample": {
+      "unique_games": 484,
+      "high_minus_low": 0.0033606023736338798,
+      "two_sided_95": [
+        -0.001988060631075633,
+        0.008666544795582126
+      ],
+      "bootstrap_replicates": 4000
+    },
+    "warning": "Both contrasts are associations, not a causal effect of hidden-card count. The paired subset selects games observed in both bins; the full sample has different game composition in each bin."
+  },
+  "conservative_bound": {
+    "games": 300,
+    "positive_gap_mean_with_missing_bounds": 0.008440755208333333,
+    "unbiased_sample_variance": 0.0012973952426293726,
+    "alpha": 0.05,
+    "one_sided_upper": 0.042876557409764614,
+    "radius_before_clipping": 0.03443580220143128,
+    "status": "secondary_diagnostic_predeclared_before_confirmatory_outcomes",
+    "missing_or_invalid_low_positions_bounded_at_one": 0,
+    "interpretation": "Upper bound for the positive part of this finite estimated contrast under independent-game assumptions. Includes worst-case unresolved values. It is not a bound on the true optimal perfect-information advantage.",
+    "source": "https://www.cs.mcgill.ca/~colt2009/papers/012.pdf",
+    "source_location": "Theorem 11; independent potentially nonidentically distributed variables; unbiased sample variance; values in [0,1]"
+  }
+}

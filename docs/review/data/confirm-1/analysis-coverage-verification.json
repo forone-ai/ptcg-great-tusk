@@ -1,0 +1,57 @@
+{
+  "verified_at_utc": "2026-09-13T21:09:10.679362+00:00",
+  "manifest_hash_verified": true,
+  "frozen_analysis_source_hashes_verified": true,
+  "by_band": {
+    "low": {
+      "planned_positions": 300,
+      "planned_distinct_games": 300,
+      "collector_included_positions": 300,
+      "statistics_valid_positions": 300,
+      "all_planned_positions_valid": true,
+      "missing_or_invalid_position_ids": [],
+      "exclusion_reasons": {}
+    },
+    "mid": {
+      "planned_positions": 300,
+      "planned_distinct_games": 300,
+      "collector_included_positions": 300,
+      "statistics_valid_positions": 300,
+      "all_planned_positions_valid": true,
+      "missing_or_invalid_position_ids": [],
+      "exclusion_reasons": {}
+    },
+    "high": {
+      "planned_positions": 300,
+      "planned_distinct_games": 300,
+      "collector_included_positions": 300,
+      "statistics_valid_positions": 300,
+      "all_planned_positions_valid": true,
+      "missing_or_invalid_position_ids": [],
+      "exclusion_reasons": {}
+    }
+  },
+  "complete_selected_cohort": true,
+  "primary_cohort_complete": true,
+  "primary_bootstrap": {
+    "margin": 0.05,
+    "low_definition": "hidden_count < 15",
+    "one_sided_95_upper_including_worst_case_unresolved": 0.011591959635416664,
+    "one_sided_95_upper_identified_pairs_only": 0.011591959635416664,
+    "statistical_margin_criterion_met": true,
+    "all_selected_low_positions_analysable": true,
+    "reference_quality_screen": {
+      "metric": "game-weighted split-half selected-action membership in the other half's tied-best set, averaged over both directions",
+      "value": 0.9834375,
+      "predeclared_minimum": 0.8,
+      "screen_passed": true,
+      "information_value_claim_unconfirmed_due_to_low_stability": false,
+      "warning": "The 0.80 default is a predeclared diagnostic screen, not a calibrated guarantee of oracle quality. Broad ties can inflate agreement; inspect tied-best-set overlap, Jaccard, tie fraction and terminal completion. Passing does not prove true-oracle equivalence."
+    },
+    "margin_and_stability_screen_met": true,
+    "coverage_warning": "Coverage here includes only positions appearing in the input. Compare against the frozen manifest, including generation failures and unstarted positions, before any conclusion.",
+    "interpretation": "Criterion concerns this finite-reference procedure only. It is NOT an upper bound on true perfect-information value; oracle misselection, missing positions, wrong worlds, or a weak continuation can create small gaps.",
+    "requires_quality_review": true
+  },
+  "scope": "The primary bootstrap only describes the full planned low-H cohort when primary_cohort_complete is true. Secondary bands never change the low-H sample or its stopping rule."
+}

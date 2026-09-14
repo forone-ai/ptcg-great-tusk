@@ -1,0 +1,4 @@
+Cell values are mean terminal scores: win = 1, draw = 0.5, loss = 0.  * marks common sampled-best actions.
+Selected from 5 low-H pilot positions, excluded from the confirmatory analysis; selection rules and candidate metrics are supplied.
+These are finite-sample results under supplied full decklists and fixed continuation policies. They do not prove a forced line,
+optimal play, full-history legality, or prevalence. The sampled worlds may differ in future draws as well as current hidden cards.

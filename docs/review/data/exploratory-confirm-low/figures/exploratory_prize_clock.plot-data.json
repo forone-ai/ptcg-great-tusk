@@ -1,0 +1,190 @@
+{
+  "actions": [
+    7,
+    9,
+    1
+  ],
+  "means": [
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "representative_trace_actions": [
+    7,
+    1
+  ],
+  "representative_stages": [
+    [
+      {
+        "global_turn": 36,
+        "actor": 1,
+        "result": -1,
+        "own_deck": 7,
+        "opponent_deck": 4,
+        "own_prizes": 4,
+        "opponent_prizes": 3,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [
+          {
+            "id": 648,
+            "hp": 80
+          }
+        ],
+        "next_context": 0
+      },
+      {
+        "global_turn": 37,
+        "actor": 1,
+        "result": -1,
+        "own_deck": 6,
+        "opponent_deck": 4,
+        "own_prizes": 2,
+        "opponent_prizes": 3,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [],
+        "next_context": 4
+      },
+      {
+        "global_turn": 39,
+        "actor": 0,
+        "result": 0,
+        "own_deck": 5,
+        "opponent_deck": 3,
+        "own_prizes": 0,
+        "opponent_prizes": 2,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [],
+        "next_context": 7
+      }
+    ],
+    [
+      {
+        "global_turn": 36,
+        "actor": 1,
+        "result": -1,
+        "own_deck": 1,
+        "opponent_deck": 4,
+        "own_prizes": 4,
+        "opponent_prizes": 3,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [
+          {
+            "id": 648,
+            "hp": 80
+          }
+        ],
+        "next_context": 0
+      },
+      {
+        "global_turn": 37,
+        "actor": 1,
+        "result": -1,
+        "own_deck": 0,
+        "opponent_deck": 4,
+        "own_prizes": 2,
+        "opponent_prizes": 3,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [],
+        "next_context": 4
+      },
+      {
+        "global_turn": 39,
+        "actor": 1,
+        "result": 1,
+        "own_deck": 0,
+        "opponent_deck": 3,
+        "own_prizes": 2,
+        "opponent_prizes": 2,
+        "own_active": [
+          {
+            "id": 345,
+            "hp": 150
+          }
+        ],
+        "opponent_active": [
+          {
+            "id": 648,
+            "hp": 230
+          }
+        ],
+        "next_context": 7
+      }
+    ]
+  ]
+}

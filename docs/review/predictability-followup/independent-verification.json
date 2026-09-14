@@ -1,0 +1,37 @@
+{
+  "all_900_raw_and_meta_hashes_match_original_archive": true,
+  "independently_recomputed_varied_positions": [
+    {
+      "position_id": "100034997:98",
+      "hidden_mse": 0.029338836669921875,
+      "revealed_mse": 0.00017293294270833334
+    },
+    {
+      "position_id": "100035714:118",
+      "hidden_mse": 0.0616912841796875,
+      "revealed_mse": 0.047322591145833336
+    },
+    {
+      "position_id": "100003444:164",
+      "hidden_mse": 0.02208251953125,
+      "revealed_mse": 0.019677734375
+    },
+    {
+      "position_id": "100015660:108",
+      "hidden_mse": 0.18310546875,
+      "revealed_mse": 0.15596516927083334
+    },
+    {
+      "position_id": "100003809:44",
+      "hidden_mse": 0.13111495971679688,
+      "revealed_mse": 0.125762939453125
+    },
+    {
+      "position_id": "100015660:12",
+      "hidden_mse": 0.24024200439453125,
+      "revealed_mse": 0.22650146484375
+    }
+  ],
+  "all_band_means_verified": true,
+  "source_script_sha256": "94964c4b1a003e567715ddb65d33f8e404953f5cb90c024f16c69833374fec55"
+}

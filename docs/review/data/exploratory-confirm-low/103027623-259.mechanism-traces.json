@@ -1,0 +1,2725 @@
+{
+  "purpose": "Post-hoc descriptive mechanism traces after primary analysis; does not replace primary outcomes.",
+  "position_id": "103027623:259",
+  "our_player": 0,
+  "source_meta": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/primary-complete-1/103027623-259.meta.json",
+  "source_replay": "/private/tmp/kaggle_eps/55565424/replays/episode-103027623-replay.json",
+  "source_step": 259,
+  "max_steps": 200,
+  "root_public_observation": {
+    "current": {
+      "energyAttached": false,
+      "firstPlayer": 0,
+      "looking": null,
+      "players": [
+        {
+          "active": [
+            {
+              "appearThisTurn": false,
+              "energies": [
+                1,
+                1,
+                6
+              ],
+              "energyCards": [
+                {
+                  "id": 1,
+                  "playerIndex": 0,
+                  "serial": 57
+                },
+                {
+                  "id": 1,
+                  "playerIndex": 0,
+                  "serial": 58
+                },
+                {
+                  "id": 20,
+                  "playerIndex": 0,
+                  "serial": 60
+                }
+              ],
+              "hp": 150,
+              "id": 345,
+              "maxHp": 150,
+              "playerIndex": 0,
+              "preEvolution": [
+                {
+                  "id": 344,
+                  "playerIndex": 0,
+                  "serial": 9
+                }
+              ],
+              "serial": 13,
+              "tools": []
+            }
+          ],
+          "asleep": false,
+          "bench": [
+            {
+              "appearThisTurn": false,
+              "energies": [],
+              "energyCards": [],
+              "hp": 50,
+              "id": 58,
+              "maxHp": 140,
+              "playerIndex": 0,
+              "preEvolution": [],
+              "serial": 6,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [
+                1,
+                1,
+                0
+              ],
+              "energyCards": [
+                {
+                  "id": 1,
+                  "playerIndex": 0,
+                  "serial": 56
+                },
+                {
+                  "id": 1,
+                  "playerIndex": 0,
+                  "serial": 53
+                },
+                {
+                  "id": 11,
+                  "playerIndex": 0,
+                  "serial": 51
+                }
+              ],
+              "hp": 120,
+              "id": 345,
+              "maxHp": 150,
+              "playerIndex": 0,
+              "preEvolution": [
+                {
+                  "id": 344,
+                  "playerIndex": 0,
+                  "serial": 10
+                }
+              ],
+              "serial": 11,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [],
+              "energyCards": [],
+              "hp": 140,
+              "id": 58,
+              "maxHp": 140,
+              "playerIndex": 0,
+              "preEvolution": [],
+              "serial": 5,
+              "tools": []
+            }
+          ],
+          "benchMax": 5,
+          "burned": false,
+          "confused": false,
+          "deckCount": 7,
+          "discard": [
+            {
+              "id": 1123,
+              "playerIndex": 0,
+              "serial": 23
+            },
+            {
+              "id": 1264,
+              "playerIndex": 0,
+              "serial": 48
+            },
+            {
+              "id": 1094,
+              "playerIndex": 0,
+              "serial": 29
+            },
+            {
+              "id": 1247,
+              "playerIndex": 0,
+              "serial": 50
+            },
+            {
+              "id": 1147,
+              "playerIndex": 0,
+              "serial": 26
+            },
+            {
+              "id": 1185,
+              "playerIndex": 0,
+              "serial": 35
+            },
+            {
+              "id": 1227,
+              "playerIndex": 0,
+              "serial": 41
+            },
+            {
+              "id": 1123,
+              "playerIndex": 0,
+              "serial": 25
+            },
+            {
+              "id": 1185,
+              "playerIndex": 0,
+              "serial": 36
+            },
+            {
+              "id": 1147,
+              "playerIndex": 0,
+              "serial": 20
+            },
+            {
+              "id": 1152,
+              "playerIndex": 0,
+              "serial": 19
+            },
+            {
+              "id": 1120,
+              "playerIndex": 0,
+              "serial": 22
+            },
+            {
+              "id": 1182,
+              "playerIndex": 0,
+              "serial": 44
+            },
+            {
+              "id": 58,
+              "playerIndex": 0,
+              "serial": 3
+            },
+            {
+              "id": 1122,
+              "playerIndex": 0,
+              "serial": 32
+            },
+            {
+              "id": 1227,
+              "playerIndex": 0,
+              "serial": 42
+            },
+            {
+              "id": 1152,
+              "playerIndex": 0,
+              "serial": 18
+            },
+            {
+              "id": 1152,
+              "playerIndex": 0,
+              "serial": 16
+            },
+            {
+              "id": 1197,
+              "playerIndex": 0,
+              "serial": 46
+            },
+            {
+              "id": 1227,
+              "playerIndex": 0,
+              "serial": 40
+            },
+            {
+              "id": 1086,
+              "playerIndex": 0,
+              "serial": 27
+            },
+            {
+              "id": 1122,
+              "playerIndex": 0,
+              "serial": 33
+            },
+            {
+              "id": 1182,
+              "playerIndex": 0,
+              "serial": 45
+            },
+            {
+              "id": 1197,
+              "playerIndex": 0,
+              "serial": 47
+            },
+            {
+              "id": 345,
+              "playerIndex": 0,
+              "serial": 12
+            },
+            {
+              "id": 344,
+              "playerIndex": 0,
+              "serial": 7
+            },
+            {
+              "id": 20,
+              "playerIndex": 0,
+              "serial": 61
+            },
+            {
+              "id": 11,
+              "playerIndex": 0,
+              "serial": 52
+            },
+            {
+              "id": 1168,
+              "playerIndex": 0,
+              "serial": 30
+            },
+            {
+              "id": 1182,
+              "playerIndex": 0,
+              "serial": 43
+            },
+            {
+              "id": 1152,
+              "playerIndex": 0,
+              "serial": 17
+            },
+            {
+              "id": 1097,
+              "playerIndex": 0,
+              "serial": 34
+            }
+          ],
+          "hand": [
+            {
+              "id": 58,
+              "playerIndex": 0,
+              "serial": 4
+            },
+            {
+              "id": 1185,
+              "playerIndex": 0,
+              "serial": 38
+            },
+            {
+              "id": 1185,
+              "playerIndex": 0,
+              "serial": 37
+            },
+            {
+              "id": 20,
+              "playerIndex": 0,
+              "serial": 59
+            },
+            {
+              "id": 344,
+              "playerIndex": 0,
+              "serial": 8
+            }
+          ],
+          "handCount": 5,
+          "paralyzed": false,
+          "poisoned": false,
+          "prize": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "active": [
+            {
+              "appearThisTurn": false,
+              "energies": [
+                7,
+                7
+              ],
+              "energyCards": [
+                {
+                  "id": 7,
+                  "playerIndex": 1,
+                  "serial": 114
+                },
+                {
+                  "id": 7,
+                  "playerIndex": 1,
+                  "serial": 118
+                }
+              ],
+              "hp": 320,
+              "id": 648,
+              "maxHp": 320,
+              "playerIndex": 1,
+              "preEvolution": [
+                {
+                  "id": 646,
+                  "playerIndex": 1,
+                  "serial": 63
+                },
+                {
+                  "id": 647,
+                  "playerIndex": 1,
+                  "serial": 68
+                }
+              ],
+              "serial": 72,
+              "tools": []
+            }
+          ],
+          "asleep": false,
+          "bench": [
+            {
+              "appearThisTurn": false,
+              "energies": [
+                7,
+                7
+              ],
+              "energyCards": [
+                {
+                  "id": 7,
+                  "playerIndex": 1,
+                  "serial": 115
+                },
+                {
+                  "id": 7,
+                  "playerIndex": 1,
+                  "serial": 116
+                }
+              ],
+              "hp": 230,
+              "id": 648,
+              "maxHp": 320,
+              "playerIndex": 1,
+              "preEvolution": [
+                {
+                  "id": 646,
+                  "playerIndex": 1,
+                  "serial": 65
+                }
+              ],
+              "serial": 71,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [],
+              "energyCards": [],
+              "hp": 230,
+              "id": 648,
+              "maxHp": 320,
+              "playerIndex": 1,
+              "preEvolution": [
+                {
+                  "id": 646,
+                  "playerIndex": 1,
+                  "serial": 66
+                },
+                {
+                  "id": 647,
+                  "playerIndex": 1,
+                  "serial": 67
+                }
+              ],
+              "serial": 70,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [
+                7
+              ],
+              "energyCards": [
+                {
+                  "id": 7,
+                  "playerIndex": 1,
+                  "serial": 120
+                }
+              ],
+              "hp": 110,
+              "id": 112,
+              "maxHp": 110,
+              "playerIndex": 1,
+              "preEvolution": [],
+              "serial": 76,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [],
+              "energyCards": [],
+              "hp": 320,
+              "id": 648,
+              "maxHp": 320,
+              "playerIndex": 1,
+              "preEvolution": [
+                {
+                  "id": 646,
+                  "playerIndex": 1,
+                  "serial": 64
+                },
+                {
+                  "id": 647,
+                  "playerIndex": 1,
+                  "serial": 69
+                }
+              ],
+              "serial": 73,
+              "tools": []
+            },
+            {
+              "appearThisTurn": false,
+              "energies": [],
+              "energyCards": [],
+              "hp": 110,
+              "id": 112,
+              "maxHp": 110,
+              "playerIndex": 1,
+              "preEvolution": [],
+              "serial": 75,
+              "tools": []
+            }
+          ],
+          "benchMax": 5,
+          "burned": false,
+          "confused": false,
+          "deckCount": 5,
+          "discard": [
+            {
+              "id": 1086,
+              "playerIndex": 1,
+              "serial": 83
+            },
+            {
+              "id": 1122,
+              "playerIndex": 1,
+              "serial": 110
+            },
+            {
+              "id": 1231,
+              "playerIndex": 1,
+              "serial": 108
+            },
+            {
+              "id": 1097,
+              "playerIndex": 1,
+              "serial": 100
+            },
+            {
+              "id": 1079,
+              "playerIndex": 1,
+              "serial": 86
+            },
+            {
+              "id": 1097,
+              "playerIndex": 1,
+              "serial": 99
+            },
+            {
+              "id": 7,
+              "playerIndex": 1,
+              "serial": 122
+            },
+            {
+              "id": 1227,
+              "playerIndex": 1,
+              "serial": 95
+            },
+            {
+              "id": 1122,
+              "playerIndex": 1,
+              "serial": 111
+            },
+            {
+              "id": 7,
+              "playerIndex": 1,
+              "serial": 119
+            },
+            {
+              "id": 1182,
+              "playerIndex": 1,
+              "serial": 102
+            },
+            {
+              "id": 1231,
+              "playerIndex": 1,
+              "serial": 107
+            },
+            {
+              "id": 7,
+              "playerIndex": 1,
+              "serial": 113
+            },
+            {
+              "id": 1227,
+              "playerIndex": 1,
+              "serial": 96
+            },
+            {
+              "id": 1227,
+              "playerIndex": 1,
+              "serial": 93
+            },
+            {
+              "id": 1097,
+              "playerIndex": 1,
+              "serial": 98
+            },
+            {
+              "id": 1231,
+              "playerIndex": 1,
+              "serial": 109
+            },
+            {
+              "id": 1080,
+              "playerIndex": 1,
+              "serial": 112
+            },
+            {
+              "id": 1227,
+              "playerIndex": 1,
+              "serial": 94
+            },
+            {
+              "id": 1152,
+              "playerIndex": 1,
+              "serial": 92
+            },
+            {
+              "id": 1259,
+              "playerIndex": 1,
+              "serial": 106
+            },
+            {
+              "id": 1079,
+              "playerIndex": 1,
+              "serial": 85
+            },
+            {
+              "id": 1182,
+              "playerIndex": 1,
+              "serial": 101
+            },
+            {
+              "id": 1152,
+              "playerIndex": 1,
+              "serial": 89
+            },
+            {
+              "id": 1097,
+              "playerIndex": 1,
+              "serial": 97
+            },
+            {
+              "id": 1086,
+              "playerIndex": 1,
+              "serial": 84
+            },
+            {
+              "id": 1079,
+              "playerIndex": 1,
+              "serial": 87
+            },
+            {
+              "id": 7,
+              "playerIndex": 1,
+              "serial": 121
+            },
+            {
+              "id": 112,
+              "playerIndex": 1,
+              "serial": 74
+            }
+          ],
+          "hand": null,
+          "handCount": 4,
+          "paralyzed": false,
+          "poisoned": false,
+          "prize": [
+            null,
+            null,
+            null
+          ]
+        }
+      ],
+      "result": -1,
+      "retreated": false,
+      "stadium": [
+        {
+          "id": 1259,
+          "playerIndex": 1,
+          "serial": 104
+        }
+      ],
+      "stadiumPlayed": false,
+      "supporterPlayed": false,
+      "turn": 35,
+      "turnActionCount": 5,
+      "yourIndex": 0
+    },
+    "logs": [
+      {
+        "cardId": 344,
+        "fromArea": 3,
+        "playerIndex": 0,
+        "serial": 8,
+        "toArea": 2,
+        "type": 6
+      }
+    ],
+    "remainingOverageTime": 596.8558409999999,
+    "select": {
+      "context": 0,
+      "contextCard": null,
+      "deck": null,
+      "effect": null,
+      "maxCount": 1,
+      "minCount": 1,
+      "option": [
+        {
+          "index": 0,
+          "type": 7
+        },
+        {
+          "index": 1,
+          "type": 7
+        },
+        {
+          "index": 2,
+          "type": 7
+        },
+        {
+          "area": 2,
+          "inPlayArea": 4,
+          "inPlayIndex": 0,
+          "index": 3,
+          "type": 8
+        },
+        {
+          "area": 2,
+          "inPlayArea": 5,
+          "inPlayIndex": 0,
+          "index": 3,
+          "type": 8
+        },
+        {
+          "area": 2,
+          "inPlayArea": 5,
+          "inPlayIndex": 1,
+          "index": 3,
+          "type": 8
+        },
+        {
+          "area": 2,
+          "inPlayArea": 5,
+          "inPlayIndex": 2,
+          "index": 3,
+          "type": 8
+        },
+        {
+          "index": 4,
+          "type": 7
+        },
+        {
+          "area": 7,
+          "index": 0,
+          "type": 10
+        },
+        {
+          "attackId": 479,
+          "type": 13
+        },
+        {
+          "type": 12
+        },
+        {
+          "type": 14
+        }
+      ],
+      "remainDamageCounter": 0,
+      "remainEnergyCost": 0,
+      "type": 0
+    },
+    "step": 259
+  },
+  "opponent_policy": "/private/tmp/x16j_withopp_1789064695/opponents/proxy_marnie_aggro/main.py",
+  "opponent_memory": "fresh at root, matching primary",
+  "limitations": "One sampled world and one coin-seed representative trace per action; native non-coin randomness is unseeded. Does not prove that these trajectories are universal.",
+  "traces": [
+    {
+      "root_action": 9,
+      "world_index": 0,
+      "world_id": "890e5d417e5877cec5ea318c8b0f98721ee248b280e380cf6266bff7155a984b",
+      "coin_seed": 902126557799781930,
+      "steps": [
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 0,
+            "selected_options": [
+              {
+                "attackId": 479,
+                "type": 13
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 36,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 7,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 4,
+              "playerIndex": 1,
+              "cardId": 1086,
+              "serial": 81
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 36,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 937
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 36,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 7,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 15
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 36,
+            "context": 15,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 5,
+              "playerIndex": 1
+            },
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            },
+            {
+              "type": 4,
+              "playerIndex": 0,
+              "cardId": 1094,
+              "serial": 39
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 37,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 479
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "fromArea": 4,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 647,
+              "serial": 68,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 646,
+              "serial": 63,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 118,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 114,
+              "fromArea": 8,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 37,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 6,
+                "index": 0,
+                "playerIndex": 0
+              },
+              {
+                "type": 3,
+                "area": 6,
+                "index": 1,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 4,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 4
+          },
+          "observer_logs": [
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            },
+            {
+              "type": 5,
+              "playerIndex": 0
+            },
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "fromArea": 4,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 647,
+              "serial": 68,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 646,
+              "serial": 63,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 118,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 114,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 6,
+              "toArea": 2
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 37,
+            "context": 4,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 1
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "fromArea": 5,
+              "toArea": 4
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 4,
+              "playerIndex": 1,
+              "cardId": 1152,
+              "serial": 80
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 937
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 15
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 15,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 6,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "fromArea": 5,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 6,
+                "index": 0,
+                "playerIndex": 1
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 39,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 5,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 2,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 235,
+              "serial": 49,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 54,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "fromArea": 5,
+              "toArea": 4
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 5,
+              "playerIndex": 1
+            },
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "fromArea": 5,
+              "toArea": 3
+            },
+            {
+              "type": 7,
+              "playerIndex": 1,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            },
+            {
+              "type": 4,
+              "playerIndex": 0,
+              "cardId": 1123,
+              "serial": 31
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 39,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 479
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 39,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 5,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 2,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "fromArea": 4,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 646,
+              "serial": 65,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 116,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 115,
+              "fromArea": 8,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 39,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 6,
+                "index": 0,
+                "playerIndex": 0
+              },
+              {
+                "type": 3,
+                "area": 6,
+                "index": 1,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 39,
+            "actor": 0,
+            "result": 0,
+            "own_deck": 5,
+            "opponent_deck": 3,
+            "own_prizes": 0,
+            "opponent_prizes": 2,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 20,
+              "serial": 55,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1168,
+              "serial": 62,
+              "fromArea": 6,
+              "toArea": 2
+            }
+          ]
+        }
+      ],
+      "opponent_decisions": 6,
+      "own_decisions_after_root": 4,
+      "terminal_result": 0,
+      "score": 1.0,
+      "terminal_global_turn": 39,
+      "prize_cards_masked": 58
+    },
+    {
+      "root_action": 1,
+      "world_index": 0,
+      "world_id": "890e5d417e5877cec5ea318c8b0f98721ee248b280e380cf6266bff7155a984b",
+      "coin_seed": 902126557799781930,
+      "steps": [
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 0,
+            "selected_options": [
+              {
+                "index": 1,
+                "type": 7
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 35,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 5,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 320
+              }
+            ],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 10,
+              "playerIndex": 0,
+              "cardId": 1185,
+              "serial": 38
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1094,
+              "serial": 39,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1123,
+              "serial": 31,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1264,
+              "serial": 28,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1120,
+              "serial": 24,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1227,
+              "serial": 21,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 15,
+              "fromArea": 1,
+              "toArea": 12
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 12,
+                "index": 5,
+                "playerIndex": 0
+              },
+              {
+                "type": 3,
+                "area": 12,
+                "index": 0,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 35,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 5,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 320
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 15,
+              "fromArea": 12,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1094,
+              "serial": 39,
+              "fromArea": 12,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1123,
+              "serial": 31,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1264,
+              "serial": 28,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1120,
+              "serial": 24,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1227,
+              "serial": 21,
+              "fromArea": 12,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 7,
+                "index": 3
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 35,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 5,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 320
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 10,
+              "playerIndex": 0,
+              "cardId": 344,
+              "serial": 8
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 8,
+                "area": 2,
+                "index": 3,
+                "inPlayArea": 5,
+                "inPlayIndex": 3
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 35,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 5,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 320
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 11,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 15,
+              "cardIdTarget": 344,
+              "serialTarget": 8
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 35,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 479
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 36,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 10,
+              "playerIndex": 0,
+              "cardId": 1185,
+              "serial": 38
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 1,
+              "toArea": 12
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 12,
+              "toArea": 2
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 12,
+              "toArea": 2
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1123,
+              "serial": 31,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1264,
+              "serial": 28,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1120,
+              "serial": 24,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 1227,
+              "serial": 21,
+              "fromArea": 12,
+              "toArea": 3
+            },
+            {
+              "type": 10,
+              "playerIndex": 0,
+              "cardId": 344,
+              "serial": 8
+            },
+            {
+              "type": 11,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 15,
+              "cardIdTarget": 344,
+              "serialTarget": 8
+            },
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 4,
+              "playerIndex": 1,
+              "cardId": 1086,
+              "serial": 81
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 36,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 937
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 36,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 1,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 15
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 36,
+            "context": 15,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 5,
+              "playerIndex": 1
+            },
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            },
+            {
+              "type": 4,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 14
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 37,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 8,
+                "area": 2,
+                "index": 4,
+                "inPlayArea": 5,
+                "inPlayIndex": 3
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 80
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 11,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 14,
+              "cardIdTarget": 344,
+              "serialTarget": 8
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 37,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 479
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 0,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 4,
+            "own_prizes": 4,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "fromArea": 4,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 647,
+              "serial": 68,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 646,
+              "serial": 63,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 118,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 114,
+              "fromArea": 8,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 0,
+            "global_turn": 37,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 6,
+                "index": 0,
+                "playerIndex": 0
+              },
+              {
+                "type": 3,
+                "area": 6,
+                "index": 1,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 37,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 4,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [],
+            "next_context": 4
+          },
+          "observer_logs": [
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            },
+            {
+              "type": 5,
+              "playerIndex": 0
+            },
+            {
+              "type": 11,
+              "playerIndex": 0,
+              "cardId": 1,
+              "serial": 14,
+              "cardIdTarget": 344,
+              "serialTarget": 8
+            },
+            {
+              "type": 15,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "attackId": 479
+            },
+            {
+              "type": 16,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "value": -240,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 72,
+              "fromArea": 4,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 647,
+              "serial": 68,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 646,
+              "serial": 63,
+              "fromArea": 10,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 118,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 7,
+              "serial": 114,
+              "fromArea": 8,
+              "toArea": 3
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 7,
+              "playerIndex": 0,
+              "fromArea": 6,
+              "toArea": 2
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 37,
+            "context": 4,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 1
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 0
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "fromArea": 5,
+              "toArea": 4
+            },
+            {
+              "type": 3,
+              "playerIndex": 0
+            },
+            {
+              "type": 2,
+              "playerIndex": 1
+            },
+            {
+              "type": 4,
+              "playerIndex": 1,
+              "cardId": 1152,
+              "serial": 80
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 0,
+            "selected_options": [
+              {
+                "type": 13,
+                "attackId": 937
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 15
+          },
+          "observer_logs": [
+            {
+              "type": 15,
+              "playerIndex": 1,
+              "cardId": 648,
+              "serial": 71,
+              "attackId": 937
+            },
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 345,
+              "serial": 13,
+              "value": 0,
+              "putDamageCounter": false
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 15,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 5,
+                "index": 0,
+                "playerIndex": 0
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 38,
+            "actor": 1,
+            "result": -1,
+            "own_deck": 0,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 3,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 16,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "value": -30,
+              "putDamageCounter": false
+            },
+            {
+              "type": 6,
+              "playerIndex": 0,
+              "cardId": 58,
+              "serial": 6,
+              "fromArea": 5,
+              "toArea": 3
+            }
+          ]
+        },
+        {
+          "choice": {
+            "actor": 1,
+            "global_turn": 38,
+            "context": 7,
+            "selected_options": [
+              {
+                "type": 3,
+                "area": 6,
+                "index": 0,
+                "playerIndex": 1
+              }
+            ]
+          },
+          "resulting_public_summary": {
+            "global_turn": 39,
+            "actor": 1,
+            "result": 1,
+            "own_deck": 0,
+            "opponent_deck": 3,
+            "own_prizes": 2,
+            "opponent_prizes": 2,
+            "own_active": [
+              {
+                "id": 345,
+                "hp": 150
+              }
+            ],
+            "opponent_active": [
+              {
+                "id": 648,
+                "hp": 230
+              }
+            ],
+            "next_context": 7
+          },
+          "observer_logs": [
+            {
+              "type": 6,
+              "playerIndex": 1,
+              "cardId": 1182,
+              "serial": 82,
+              "fromArea": 6,
+              "toArea": 2
+            },
+            {
+              "type": 3,
+              "playerIndex": 1
+            },
+            {
+              "type": 2,
+              "playerIndex": 0
+            }
+          ]
+        }
+      ],
+      "opponent_decisions": 6,
+      "own_decisions_after_root": 7,
+      "terminal_result": 1,
+      "score": 0.0,
+      "terminal_global_turn": 39,
+      "prize_cards_masked": 87
+    }
+  ]
+}

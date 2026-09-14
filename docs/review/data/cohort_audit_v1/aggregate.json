@@ -1,0 +1,1058 @@
+{
+  "created_utc": "2026-09-13T19:05:32.504152+00:00",
+  "runtime_sec": 22.453269833233207,
+  "script_sha256": "d73172897dc1e64000ae5ca26904e734af6f28914da66199aebd28f8274aa2a9",
+  "source_manifests": [
+    {
+      "submission_id": "55565056",
+      "metadata_path": "/private/tmp/kaggle_eps/55565056/episodes_full.json",
+      "metadata_sha256": "50dfab2ac8020b064b25cc9fbae3155e79ea437d6dc00ec413afcfa6b05eb215",
+      "listed_count": 1000,
+      "listed_unique": 1000,
+      "replay_files": 999,
+      "replay_unique": 999,
+      "listed_missing_replays": [
+        "103457731"
+      ],
+      "replays_not_listed": []
+    },
+    {
+      "submission_id": "55565424",
+      "metadata_path": "/private/tmp/kaggle_eps/55565424/episodes_full.json",
+      "metadata_sha256": "9694789e6598531ce3a20401ae32b477f6d890259954d83129433d7b78943122",
+      "listed_count": 1000,
+      "listed_unique": 1000,
+      "replay_files": 1000,
+      "replay_unique": 1000,
+      "listed_missing_replays": [],
+      "replays_not_listed": []
+    }
+  ],
+  "duplicate_episode_ids_across_submissions": [],
+  "unique_listed_episode_ids": 2000,
+  "definitions": {
+    "H": "opponent deckCount + handCount + len(prize); not entropy",
+    "own_main": "ACTIVE, result=-1, current.yourIndex=own index, context=0, correct turn parity; single options allowed",
+    "root_eligible": "own_main + 2..12 options + minCount=maxCount=1 + search_begin_input present + no current.looking (matches prepare_positions.py position filter; cohort additionally checks own index and actor parity)",
+    "checkpoint": "first own MAIN at own turn 5/10/15; own turn=(globalturn+1)//2 after verifying actor parity",
+    "ended_before": "completed before first MAIN checkpoint; terminal on that same turn before MAIN included",
+    "denominator": "all listed episodes retained; missing replay remains unresolved; available-replay summary also provided"
+  },
+  "all_listed": {
+    "listed_episodes": 2000,
+    "replays_available": 1999,
+    "known_reach_episodes": 1999,
+    "outcomes": {
+      "loss": 918,
+      "win": 1080,
+      "draw": 2
+    },
+    "audit_status": {
+      "ok": 1999,
+      "unresolved": 1
+    },
+    "issues": {
+      "no_explicit_terminal_engine_result": 1999,
+      "missing_replay": 1
+    },
+    "ever_H_lt_15_own_main": 776,
+    "ever_H_lt_15_proportion_all_listed_lower_bound": 0.388,
+    "ever_H_lt_15_proportion_among_auditable": 0.38819409704852426,
+    "ever_H_lt_15_root_eligible": 750,
+    "own_main_decisions": 73067,
+    "root_eligible_decisions": 64833,
+    "min_H_per_game_distribution": {
+      "n": 1999,
+      "min": 2,
+      "p10": 9.0,
+      "p25": 12.0,
+      "median": 17,
+      "p75": 25.0,
+      "p90": 33.0,
+      "max": 59,
+      "mean": 19.67183591795898
+    },
+    "first_low_H_own_turn": {
+      "n": 776,
+      "min": 4,
+      "p10": 7.0,
+      "p25": 8.0,
+      "median": 10.0,
+      "p75": 13.0,
+      "p90": 16.0,
+      "max": 28,
+      "mean": 10.9909793814433
+    },
+    "checkpoints": {
+      "5": {
+        "all_started_denominator": 2000,
+        "categories": {
+          "ended_before": 107,
+          "reached": 1892,
+          "unresolved": 1
+        },
+        "H_lt_15_count": 13,
+        "H_distribution_conditional_on_reached": {
+          "n": 1892,
+          "min": 8,
+          "p10": 24.0,
+          "p25": 29.0,
+          "median": 34.0,
+          "p75": 40.0,
+          "p90": 45.0,
+          "max": 56,
+          "mean": 34.32399577167019
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 1892,
+          "min": 6,
+          "p10": 22.0,
+          "p25": 26.0,
+          "median": 30.0,
+          "p75": 34.0,
+          "p90": 38.90000000000009,
+          "max": 45,
+          "mean": 29.8546511627907
+        },
+        "root_eligible_at_first_main_count": 1538
+      },
+      "10": {
+        "all_started_denominator": 2000,
+        "categories": {
+          "ended_before": 932,
+          "reached": 1067,
+          "unresolved": 1
+        },
+        "H_lt_15_count": 212,
+        "H_distribution_conditional_on_reached": {
+          "n": 1067,
+          "min": 4,
+          "p10": 11.0,
+          "p25": 16.0,
+          "median": 21,
+          "p75": 29.0,
+          "p90": 34.0,
+          "max": 52,
+          "mean": 22.26991565135895
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 1067,
+          "min": 4,
+          "p10": 10.0,
+          "p25": 13.0,
+          "median": 18,
+          "p75": 23.0,
+          "p90": 29.0,
+          "max": 41,
+          "mean": 18.5979381443299
+        },
+        "root_eligible_at_first_main_count": 924
+      },
+      "15": {
+        "all_started_denominator": 2000,
+        "categories": {
+          "ended_before": 1643,
+          "reached": 356,
+          "unresolved": 1
+        },
+        "H_lt_15_count": 107,
+        "H_distribution_conditional_on_reached": {
+          "n": 356,
+          "min": 6,
+          "p10": 11.0,
+          "p25": 14.0,
+          "median": 18.0,
+          "p75": 24.0,
+          "p90": 30.0,
+          "max": 47,
+          "mean": 19.424157303370787
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 356,
+          "min": 1,
+          "p10": 5.0,
+          "p25": 8.0,
+          "median": 11.0,
+          "p75": 16.0,
+          "p90": 20.0,
+          "max": 41,
+          "mean": 11.924157303370787
+        },
+        "root_eligible_at_first_main_count": 296
+      }
+    }
+  },
+  "available_replays": {
+    "listed_episodes": 1999,
+    "replays_available": 1999,
+    "known_reach_episodes": 1999,
+    "outcomes": {
+      "loss": 918,
+      "win": 1080,
+      "draw": 1
+    },
+    "audit_status": {
+      "ok": 1999
+    },
+    "issues": {
+      "no_explicit_terminal_engine_result": 1999
+    },
+    "ever_H_lt_15_own_main": 776,
+    "ever_H_lt_15_proportion_all_listed_lower_bound": 0.38819409704852426,
+    "ever_H_lt_15_proportion_among_auditable": 0.38819409704852426,
+    "ever_H_lt_15_root_eligible": 750,
+    "own_main_decisions": 73067,
+    "root_eligible_decisions": 64833,
+    "min_H_per_game_distribution": {
+      "n": 1999,
+      "min": 2,
+      "p10": 9.0,
+      "p25": 12.0,
+      "median": 17,
+      "p75": 25.0,
+      "p90": 33.0,
+      "max": 59,
+      "mean": 19.67183591795898
+    },
+    "first_low_H_own_turn": {
+      "n": 776,
+      "min": 4,
+      "p10": 7.0,
+      "p25": 8.0,
+      "median": 10.0,
+      "p75": 13.0,
+      "p90": 16.0,
+      "max": 28,
+      "mean": 10.9909793814433
+    },
+    "checkpoints": {
+      "5": {
+        "all_started_denominator": 1999,
+        "categories": {
+          "ended_before": 107,
+          "reached": 1892
+        },
+        "H_lt_15_count": 13,
+        "H_distribution_conditional_on_reached": {
+          "n": 1892,
+          "min": 8,
+          "p10": 24.0,
+          "p25": 29.0,
+          "median": 34.0,
+          "p75": 40.0,
+          "p90": 45.0,
+          "max": 56,
+          "mean": 34.32399577167019
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 1892,
+          "min": 6,
+          "p10": 22.0,
+          "p25": 26.0,
+          "median": 30.0,
+          "p75": 34.0,
+          "p90": 38.90000000000009,
+          "max": 45,
+          "mean": 29.8546511627907
+        },
+        "root_eligible_at_first_main_count": 1538
+      },
+      "10": {
+        "all_started_denominator": 1999,
+        "categories": {
+          "ended_before": 932,
+          "reached": 1067
+        },
+        "H_lt_15_count": 212,
+        "H_distribution_conditional_on_reached": {
+          "n": 1067,
+          "min": 4,
+          "p10": 11.0,
+          "p25": 16.0,
+          "median": 21,
+          "p75": 29.0,
+          "p90": 34.0,
+          "max": 52,
+          "mean": 22.26991565135895
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 1067,
+          "min": 4,
+          "p10": 10.0,
+          "p25": 13.0,
+          "median": 18,
+          "p75": 23.0,
+          "p90": 29.0,
+          "max": 41,
+          "mean": 18.5979381443299
+        },
+        "root_eligible_at_first_main_count": 924
+      },
+      "15": {
+        "all_started_denominator": 1999,
+        "categories": {
+          "ended_before": 1643,
+          "reached": 356
+        },
+        "H_lt_15_count": 107,
+        "H_distribution_conditional_on_reached": {
+          "n": 356,
+          "min": 6,
+          "p10": 11.0,
+          "p25": 14.0,
+          "median": 18.0,
+          "p75": 24.0,
+          "p90": 30.0,
+          "max": 47,
+          "mean": 19.424157303370787
+        },
+        "own_deck_conditional_on_reached": {
+          "n": 356,
+          "min": 1,
+          "p10": 5.0,
+          "p25": 8.0,
+          "median": 11.0,
+          "p75": 16.0,
+          "p90": 20.0,
+          "max": 41,
+          "mean": 11.924157303370787
+        },
+        "root_eligible_at_first_main_count": 296
+      }
+    }
+  },
+  "by_outcome": {
+    "win": {
+      "listed_episodes": 1080,
+      "replays_available": 1080,
+      "known_reach_episodes": 1080,
+      "outcomes": {
+        "win": 1080
+      },
+      "audit_status": {
+        "ok": 1080
+      },
+      "issues": {
+        "no_explicit_terminal_engine_result": 1080
+      },
+      "ever_H_lt_15_own_main": 602,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": 0.5574074074074075,
+      "ever_H_lt_15_proportion_among_auditable": 0.5574074074074075,
+      "ever_H_lt_15_root_eligible": 578,
+      "own_main_decisions": 42543,
+      "root_eligible_decisions": 37154,
+      "min_H_per_game_distribution": {
+        "n": 1080,
+        "min": 2,
+        "p10": 7.0,
+        "p25": 10.0,
+        "median": 13.0,
+        "p75": 19.0,
+        "p90": 26.100000000000023,
+        "max": 59,
+        "mean": 15.785185185185185
+      },
+      "first_low_H_own_turn": {
+        "n": 602,
+        "min": 4,
+        "p10": 7.0,
+        "p25": 8.0,
+        "median": 10.0,
+        "p75": 13.0,
+        "p90": 16.0,
+        "max": 28,
+        "mean": 10.82392026578073
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 1080,
+          "categories": {
+            "reached": 1070,
+            "ended_before": 10
+          },
+          "H_lt_15_count": 12,
+          "H_distribution_conditional_on_reached": {
+            "n": 1070,
+            "min": 8,
+            "p10": 22.0,
+            "p25": 28.0,
+            "median": 34.0,
+            "p75": 40.0,
+            "p90": 46.0,
+            "max": 56,
+            "mean": 33.8214953271028
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 1070,
+            "min": 14,
+            "p10": 22.0,
+            "p25": 26.0,
+            "median": 30.0,
+            "p75": 34.0,
+            "p90": 38.0,
+            "max": 45,
+            "mean": 29.763551401869158
+          },
+          "root_eligible_at_first_main_count": 840
+        },
+        "10": {
+          "all_started_denominator": 1080,
+          "categories": {
+            "reached": 727,
+            "ended_before": 353
+          },
+          "H_lt_15_count": 177,
+          "H_distribution_conditional_on_reached": {
+            "n": 727,
+            "min": 4,
+            "p10": 11.0,
+            "p25": 15.0,
+            "median": 20,
+            "p75": 26.0,
+            "p90": 33.0,
+            "max": 52,
+            "mean": 20.958734525447042
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 727,
+            "min": 4,
+            "p10": 10.0,
+            "p25": 13.0,
+            "median": 18,
+            "p75": 24.0,
+            "p90": 29.0,
+            "max": 41,
+            "mean": 18.873452544704264
+          },
+          "root_eligible_at_first_main_count": 611
+        },
+        "15": {
+          "all_started_denominator": 1080,
+          "categories": {
+            "ended_before": 832,
+            "reached": 248
+          },
+          "H_lt_15_count": 92,
+          "H_distribution_conditional_on_reached": {
+            "n": 248,
+            "min": 6,
+            "p10": 10.0,
+            "p25": 13.0,
+            "median": 16.0,
+            "p75": 21.25,
+            "p90": 28.0,
+            "max": 46,
+            "mean": 17.794354838709676
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 248,
+            "min": 1,
+            "p10": 6.0,
+            "p25": 8.0,
+            "median": 11.0,
+            "p75": 16.0,
+            "p90": 21.0,
+            "max": 41,
+            "mean": 12.556451612903226
+          },
+          "root_eligible_at_first_main_count": 197
+        }
+      }
+    },
+    "loss": {
+      "listed_episodes": 918,
+      "replays_available": 918,
+      "known_reach_episodes": 918,
+      "outcomes": {
+        "loss": 918
+      },
+      "audit_status": {
+        "ok": 918
+      },
+      "issues": {
+        "no_explicit_terminal_engine_result": 918
+      },
+      "ever_H_lt_15_own_main": 174,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": 0.1895424836601307,
+      "ever_H_lt_15_proportion_among_auditable": 0.1895424836601307,
+      "ever_H_lt_15_root_eligible": 172,
+      "own_main_decisions": 30478,
+      "root_eligible_decisions": 27635,
+      "min_H_per_game_distribution": {
+        "n": 918,
+        "min": 5,
+        "p10": 12.0,
+        "p25": 16.0,
+        "median": 23.0,
+        "p75": 29.75,
+        "p90": 38.0,
+        "max": 59,
+        "mean": 24.242919389978212
+      },
+      "first_low_H_own_turn": {
+        "n": 174,
+        "min": 5,
+        "p10": 7.0,
+        "p25": 8.0,
+        "median": 10.0,
+        "p75": 14.0,
+        "p90": 19.0,
+        "max": 27,
+        "mean": 11.568965517241379
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 918,
+          "categories": {
+            "ended_before": 97,
+            "reached": 821
+          },
+          "H_lt_15_count": 1,
+          "H_distribution_conditional_on_reached": {
+            "n": 821,
+            "min": 12,
+            "p10": 27.0,
+            "p25": 30.0,
+            "median": 35,
+            "p75": 40.0,
+            "p90": 44.0,
+            "max": 56,
+            "mean": 34.97929354445798
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 821,
+            "min": 6,
+            "p10": 21.0,
+            "p25": 25.0,
+            "median": 30,
+            "p75": 34.0,
+            "p90": 39.0,
+            "max": 45,
+            "mean": 29.97563946406821
+          },
+          "root_eligible_at_first_main_count": 698
+        },
+        "10": {
+          "all_started_denominator": 918,
+          "categories": {
+            "ended_before": 579,
+            "reached": 339
+          },
+          "H_lt_15_count": 35,
+          "H_distribution_conditional_on_reached": {
+            "n": 339,
+            "min": 7,
+            "p10": 14.0,
+            "p25": 18.0,
+            "median": 25,
+            "p75": 31.0,
+            "p90": 36.0,
+            "max": 50,
+            "mean": 25.085545722713864
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 339,
+            "min": 4,
+            "p10": 10.0,
+            "p25": 13.0,
+            "median": 17,
+            "p75": 22.0,
+            "p90": 28.0,
+            "max": 40,
+            "mean": 18.014749262536874
+          },
+          "root_eligible_at_first_main_count": 312
+        },
+        "15": {
+          "all_started_denominator": 918,
+          "categories": {
+            "ended_before": 810,
+            "reached": 108
+          },
+          "H_lt_15_count": 15,
+          "H_distribution_conditional_on_reached": {
+            "n": 108,
+            "min": 9,
+            "p10": 13.0,
+            "p25": 17.75,
+            "median": 22.0,
+            "p75": 28.25,
+            "p90": 34.0,
+            "max": 47,
+            "mean": 23.166666666666668
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 108,
+            "min": 1,
+            "p10": 3.0,
+            "p25": 6.0,
+            "median": 10.0,
+            "p75": 14.25,
+            "p90": 18.0,
+            "max": 26,
+            "mean": 10.472222222222221
+          },
+          "root_eligible_at_first_main_count": 99
+        }
+      }
+    },
+    "draw": {
+      "listed_episodes": 2,
+      "replays_available": 1,
+      "known_reach_episodes": 1,
+      "outcomes": {
+        "draw": 2
+      },
+      "audit_status": {
+        "unresolved": 1,
+        "ok": 1
+      },
+      "issues": {
+        "missing_replay": 1,
+        "no_explicit_terminal_engine_result": 1
+      },
+      "ever_H_lt_15_own_main": 0,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": 0.0,
+      "ever_H_lt_15_proportion_among_auditable": 0.0,
+      "ever_H_lt_15_root_eligible": 0,
+      "own_main_decisions": 46,
+      "root_eligible_decisions": 44,
+      "min_H_per_game_distribution": {
+        "n": 1,
+        "min": 21,
+        "p10": 21.0,
+        "p25": 21.0,
+        "median": 21,
+        "p75": 21.0,
+        "p90": 21.0,
+        "max": 21,
+        "mean": 21
+      },
+      "first_low_H_own_turn": {
+        "n": 0
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 2,
+          "categories": {
+            "unresolved": 1,
+            "reached": 1
+          },
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 1,
+            "min": 34,
+            "p10": 34.0,
+            "p25": 34.0,
+            "median": 34,
+            "p75": 34.0,
+            "p90": 34.0,
+            "max": 34,
+            "mean": 34
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 1,
+            "min": 28,
+            "p10": 28.0,
+            "p25": 28.0,
+            "median": 28,
+            "p75": 28.0,
+            "p90": 28.0,
+            "max": 28,
+            "mean": 28
+          },
+          "root_eligible_at_first_main_count": 0
+        },
+        "10": {
+          "all_started_denominator": 2,
+          "categories": {
+            "unresolved": 1,
+            "reached": 1
+          },
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 1,
+            "min": 21,
+            "p10": 21.0,
+            "p25": 21.0,
+            "median": 21,
+            "p75": 21.0,
+            "p90": 21.0,
+            "max": 21,
+            "mean": 21
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 1,
+            "min": 16,
+            "p10": 16.0,
+            "p25": 16.0,
+            "median": 16,
+            "p75": 16.0,
+            "p90": 16.0,
+            "max": 16,
+            "mean": 16
+          },
+          "root_eligible_at_first_main_count": 1
+        },
+        "15": {
+          "all_started_denominator": 2,
+          "categories": {
+            "unresolved": 1,
+            "ended_before": 1
+          },
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 0
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 0
+          },
+          "root_eligible_at_first_main_count": 0
+        }
+      }
+    },
+    "unknown": {
+      "listed_episodes": 0,
+      "replays_available": 0,
+      "known_reach_episodes": 0,
+      "outcomes": {},
+      "audit_status": {},
+      "issues": {},
+      "ever_H_lt_15_own_main": 0,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": null,
+      "ever_H_lt_15_proportion_among_auditable": null,
+      "ever_H_lt_15_root_eligible": 0,
+      "own_main_decisions": 0,
+      "root_eligible_decisions": 0,
+      "min_H_per_game_distribution": {
+        "n": 0
+      },
+      "first_low_H_own_turn": {
+        "n": 0
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 0,
+          "categories": {},
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 0
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 0
+          },
+          "root_eligible_at_first_main_count": 0
+        },
+        "10": {
+          "all_started_denominator": 0,
+          "categories": {},
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 0
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 0
+          },
+          "root_eligible_at_first_main_count": 0
+        },
+        "15": {
+          "all_started_denominator": 0,
+          "categories": {},
+          "H_lt_15_count": 0,
+          "H_distribution_conditional_on_reached": {
+            "n": 0
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 0
+          },
+          "root_eligible_at_first_main_count": 0
+        }
+      }
+    }
+  },
+  "by_submission": {
+    "55565056": {
+      "listed_episodes": 1000,
+      "replays_available": 999,
+      "known_reach_episodes": 999,
+      "outcomes": {
+        "loss": 458,
+        "win": 541,
+        "draw": 1
+      },
+      "audit_status": {
+        "ok": 999,
+        "unresolved": 1
+      },
+      "issues": {
+        "no_explicit_terminal_engine_result": 999,
+        "missing_replay": 1
+      },
+      "ever_H_lt_15_own_main": 402,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": 0.402,
+      "ever_H_lt_15_proportion_among_auditable": 0.4024024024024024,
+      "ever_H_lt_15_root_eligible": 390,
+      "own_main_decisions": 36557,
+      "root_eligible_decisions": 32517,
+      "min_H_per_game_distribution": {
+        "n": 999,
+        "min": 2,
+        "p10": 9.0,
+        "p25": 11.0,
+        "median": 17,
+        "p75": 25.0,
+        "p90": 34.200000000000045,
+        "max": 59,
+        "mean": 19.68168168168168
+      },
+      "first_low_H_own_turn": {
+        "n": 402,
+        "min": 4,
+        "p10": 6.0,
+        "p25": 8.0,
+        "median": 10.0,
+        "p75": 13.0,
+        "p90": 16.0,
+        "max": 28,
+        "mean": 10.935323383084578
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "ended_before": 65,
+            "reached": 934,
+            "unresolved": 1
+          },
+          "H_lt_15_count": 8,
+          "H_distribution_conditional_on_reached": {
+            "n": 934,
+            "min": 8,
+            "p10": 23.0,
+            "p25": 29.0,
+            "median": 34.0,
+            "p75": 40.0,
+            "p90": 45.0,
+            "max": 55,
+            "mean": 34.183083511777305
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 934,
+            "min": 14,
+            "p10": 22.0,
+            "p25": 26.0,
+            "median": 30.0,
+            "p75": 34.0,
+            "p90": 39.0,
+            "max": 45,
+            "mean": 29.826552462526767
+          },
+          "root_eligible_at_first_main_count": 764
+        },
+        "10": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "ended_before": 478,
+            "reached": 521,
+            "unresolved": 1
+          },
+          "H_lt_15_count": 105,
+          "H_distribution_conditional_on_reached": {
+            "n": 521,
+            "min": 4,
+            "p10": 12.0,
+            "p25": 15.0,
+            "median": 21,
+            "p75": 29.0,
+            "p90": 34.0,
+            "max": 52,
+            "mean": 22.291746641074855
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 521,
+            "min": 4,
+            "p10": 10.0,
+            "p25": 13.0,
+            "median": 18,
+            "p75": 23.0,
+            "p90": 28.0,
+            "max": 41,
+            "mean": 18.58349328214971
+          },
+          "root_eligible_at_first_main_count": 456
+        },
+        "15": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "ended_before": 823,
+            "reached": 176,
+            "unresolved": 1
+          },
+          "H_lt_15_count": 54,
+          "H_distribution_conditional_on_reached": {
+            "n": 176,
+            "min": 7,
+            "p10": 11.0,
+            "p25": 14.0,
+            "median": 19.0,
+            "p75": 25.0,
+            "p90": 31.0,
+            "max": 47,
+            "mean": 19.738636363636363
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 176,
+            "min": 1,
+            "p10": 5.0,
+            "p25": 8.0,
+            "median": 11.5,
+            "p75": 16.0,
+            "p90": 20.5,
+            "max": 41,
+            "mean": 12.431818181818182
+          },
+          "root_eligible_at_first_main_count": 145
+        }
+      }
+    },
+    "55565424": {
+      "listed_episodes": 1000,
+      "replays_available": 1000,
+      "known_reach_episodes": 1000,
+      "outcomes": {
+        "win": 539,
+        "loss": 460,
+        "draw": 1
+      },
+      "audit_status": {
+        "ok": 1000
+      },
+      "issues": {
+        "no_explicit_terminal_engine_result": 1000
+      },
+      "ever_H_lt_15_own_main": 374,
+      "ever_H_lt_15_proportion_all_listed_lower_bound": 0.374,
+      "ever_H_lt_15_proportion_among_auditable": 0.374,
+      "ever_H_lt_15_root_eligible": 360,
+      "own_main_decisions": 36510,
+      "root_eligible_decisions": 32316,
+      "min_H_per_game_distribution": {
+        "n": 1000,
+        "min": 4,
+        "p10": 9.0,
+        "p25": 12.0,
+        "median": 18.0,
+        "p75": 25.25,
+        "p90": 32.10000000000002,
+        "max": 59,
+        "mean": 19.662
+      },
+      "first_low_H_own_turn": {
+        "n": 374,
+        "min": 4,
+        "p10": 7.0,
+        "p25": 8.0,
+        "median": 10.0,
+        "p75": 13.0,
+        "p90": 16.0,
+        "max": 24,
+        "mean": 11.050802139037433
+      },
+      "checkpoints": {
+        "5": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "reached": 958,
+            "ended_before": 42
+          },
+          "H_lt_15_count": 5,
+          "H_distribution_conditional_on_reached": {
+            "n": 958,
+            "min": 12,
+            "p10": 25.0,
+            "p25": 29.0,
+            "median": 34.0,
+            "p75": 40.0,
+            "p90": 45.0,
+            "max": 56,
+            "mean": 34.46137787056367
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 958,
+            "min": 6,
+            "p10": 22.0,
+            "p25": 26.0,
+            "median": 30.0,
+            "p75": 34.0,
+            "p90": 38.0,
+            "max": 44,
+            "mean": 29.88204592901879
+          },
+          "root_eligible_at_first_main_count": 774
+        },
+        "10": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "ended_before": 454,
+            "reached": 546
+          },
+          "H_lt_15_count": 107,
+          "H_distribution_conditional_on_reached": {
+            "n": 546,
+            "min": 5,
+            "p10": 11.0,
+            "p25": 16.0,
+            "median": 21.0,
+            "p75": 29.0,
+            "p90": 34.0,
+            "max": 48,
+            "mean": 22.249084249084248
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 546,
+            "min": 4,
+            "p10": 10.0,
+            "p25": 13.0,
+            "median": 18.0,
+            "p75": 23.0,
+            "p90": 29.0,
+            "max": 40,
+            "mean": 18.611721611721613
+          },
+          "root_eligible_at_first_main_count": 468
+        },
+        "15": {
+          "all_started_denominator": 1000,
+          "categories": {
+            "ended_before": 820,
+            "reached": 180
+          },
+          "H_lt_15_count": 53,
+          "H_distribution_conditional_on_reached": {
+            "n": 180,
+            "min": 6,
+            "p10": 10.0,
+            "p25": 14.0,
+            "median": 18.0,
+            "p75": 23.0,
+            "p90": 30.0,
+            "max": 46,
+            "mean": 19.116666666666667
+          },
+          "own_deck_conditional_on_reached": {
+            "n": 180,
+            "min": 1,
+            "p10": 5.0,
+            "p25": 7.0,
+            "median": 10.0,
+            "p75": 15.0,
+            "p90": 20.0,
+            "max": 29,
+            "mean": 11.427777777777777
+          },
+          "root_eligible_at_first_main_count": 151
+        }
+      }
+    }
+  }
+}

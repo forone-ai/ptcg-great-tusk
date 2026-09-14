@@ -1,0 +1,43 @@
+{
+  "unique_episode_ids": 2000,
+  "listed_episodes": 2000,
+  "available_replays": 1999,
+  "metadata_replay_reward_agreement": 1999,
+  "final_DONE_count": 1999,
+  "actor_parity_violation_count": 0,
+  "no_explicit_terminal_engine_result": 1999,
+  "audit_ok_count": 1999,
+  "missing_replays": [
+    "103457731"
+  ],
+  "qualification": "Archived observation.current objects contain no terminal result. Outcomes use metadata rewards, agreeing with replay top-level rewards. This is not an independent engine-terminal-result verification.",
+  "games_sha256": "fef7d1eb29257d646768d43f3511a2dd9e82b9a6e0f0b997595d44bce9ca7f58",
+  "aggregate_sha256": "e81795f8607401c41e571ab7a89c9f9efa774e9b1a140ec97f6d0fa8166d55e9",
+  "checkpoints_counts": {
+    "5": {
+      "ended_loss": 97,
+      "ongoing_high": 922,
+      "ongoing_mid": 957,
+      "ongoing_low": 13,
+      "ended_win": 10,
+      "missing": 1
+    },
+    "10": {
+      "ended_loss": 579,
+      "ongoing_mid": 756,
+      "ended_win": 353,
+      "ongoing_high": 99,
+      "ongoing_low": 212,
+      "missing": 1
+    },
+    "15": {
+      "ended_loss": 810,
+      "ended_win": 832,
+      "ongoing_low": 107,
+      "ongoing_mid": 235,
+      "missing": 1,
+      "ongoing_high": 14,
+      "ended_draw": 1
+    }
+  }
+}

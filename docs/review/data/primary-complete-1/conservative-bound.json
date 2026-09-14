@@ -1,0 +1,13 @@
+{
+  "games": 300,
+  "positive_gap_mean_with_missing_bounds": 0.008440755208333333,
+  "unbiased_sample_variance": 0.0012973952426293726,
+  "alpha": 0.05,
+  "one_sided_upper": 0.042876557409764614,
+  "radius_before_clipping": 0.03443580220143128,
+  "status": "secondary_diagnostic_predeclared_before_confirmatory_outcomes",
+  "missing_or_invalid_low_positions_bounded_at_one": 0,
+  "interpretation": "Upper bound for the positive part of this finite estimated contrast under independent-game assumptions. Includes worst-case unresolved values. It is not a bound on the true optimal perfect-information advantage.",
+  "source": "https://www.cs.mcgill.ca/~colt2009/papers/012.pdf",
+  "source_location": "Theorem 11; independent potentially nonidentically distributed variables; unbiased sample variance; values in [0,1]"
+}

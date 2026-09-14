@@ -1,0 +1,19 @@
+{
+  "accepted": 1029,
+  "rejected": 212,
+  "counts": {
+    "pilot:low": 5,
+    "pilot:mid": 17,
+    "pilot:high": 17,
+    "confirmatory:mid": 331,
+    "confirmatory:high": 326,
+    "confirmatory:low": 333
+  },
+  "reasons": {
+    "proxy_deck_overlap_below_threshold": 212
+  },
+  "outcomes_inspected": false,
+  "manifest_sha256": "64eba5fc636c42785d195768999cd70a9a1fd913ff92cb3b01c5865cf5385d5b",
+  "valid_manifest_sha256": "2b04c72567a39ff294f58b7c0098b82d18759cad4700b8aa7f39ffce75392b6f",
+  "worlds_sha256": "6ca928c3765bb25a1670b045588666b506230a4f4b5feedcc6f35db66a974748"
+}

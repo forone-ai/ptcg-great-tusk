@@ -1,0 +1,142 @@
+{
+  "scope": "Illustrative first pilot world only, original own history and fixed submitted continuation policy; both coin branches checked for Crushing Hammer. No opponent policy required.",
+  "traces": [
+    {
+      "root_action": 0,
+      "controlled_coin_head": true,
+      "world_id": "e21ac1fac5e88446a9c458c47e971d3966343370a41952280b3e086522f779df",
+      "choices": [
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "index": 1,
+              "type": 7
+            }
+          ]
+        },
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "type": 13,
+              "attackId": 62
+            }
+          ]
+        }
+      ],
+      "result": 1,
+      "terminal_turn": 35
+    },
+    {
+      "root_action": 1,
+      "controlled_coin_head": true,
+      "world_id": "e21ac1fac5e88446a9c458c47e971d3966343370a41952280b3e086522f779df",
+      "choices": [
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "index": 3,
+              "type": 7
+            }
+          ]
+        },
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "type": 13,
+              "attackId": 62
+            }
+          ]
+        }
+      ],
+      "result": 1,
+      "terminal_turn": 35
+    },
+    {
+      "root_action": 3,
+      "controlled_coin_head": true,
+      "world_id": "e21ac1fac5e88446a9c458c47e971d3966343370a41952280b3e086522f779df",
+      "choices": [
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "index": 6,
+              "type": 7
+            }
+          ]
+        },
+        {
+          "context": 46,
+          "selected_options": [
+            {
+              "type": 1
+            }
+          ]
+        },
+        {
+          "context": 30,
+          "selected_options": [
+            {
+              "type": 6,
+              "area": 4,
+              "index": 0,
+              "playerIndex": 0,
+              "energyIndex": 0,
+              "count": 1
+            }
+          ]
+        },
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "type": 13,
+              "attackId": 62
+            }
+          ]
+        }
+      ],
+      "result": 1,
+      "terminal_turn": 35
+    },
+    {
+      "root_action": 3,
+      "controlled_coin_head": false,
+      "world_id": "e21ac1fac5e88446a9c458c47e971d3966343370a41952280b3e086522f779df",
+      "choices": [
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "index": 6,
+              "type": 7
+            }
+          ]
+        },
+        {
+          "context": 46,
+          "selected_options": [
+            {
+              "type": 2
+            }
+          ]
+        },
+        {
+          "context": 0,
+          "selected_options": [
+            {
+              "type": 13,
+              "attackId": 62
+            }
+          ]
+        }
+      ],
+      "result": 1,
+      "terminal_turn": 35
+    }
+  ]
+}

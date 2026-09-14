@@ -1,0 +1,17 @@
+{
+  "high_equals_100_index_bounds": {
+    "mid": [
+      68.15744626871754,
+      68.23470936009043
+    ],
+    "low": [
+      20.926925596591023,
+      20.94566812287641
+    ]
+  },
+  "all_low_vs_high_relative_mse_reduction_bounds": [
+    0.7905433187712358,
+    0.7907307440340898
+  ],
+  "nonsaturated_low_vs_high_relative_mse_reduction": 0.3446077354769753
+}

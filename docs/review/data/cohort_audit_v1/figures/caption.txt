@@ -1,0 +1,4 @@
+Available: 776/1,999 (38.82%) reached H < 15: 602 eventual wins and 174 losses.
+Checkpoints: first nonterminal own MAIN; single-option states are included.
+All 2,000 listed games are retained; ended games keep their outcomes, not H = 0.
+One missing draw remains unresolved. Descriptive counts do not establish causality.

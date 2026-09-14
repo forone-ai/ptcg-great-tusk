@@ -1,0 +1,27 @@
+{
+  "manifest": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions.jsonl",
+  "out": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/pilot-1",
+  "phase": "pilot",
+  "per_band": 3,
+  "worlds": 8,
+  "repeats": 8,
+  "workers": 3,
+  "max_steps": 1200,
+  "min_deck_overlap": 45,
+  "position_time_limit": 600,
+  "seed": 2026091401,
+  "agent_root": "/private/tmp/x16j_withopp_1789064695",
+  "selected_position_ids": [
+    "98900407:124",
+    "98900407:113",
+    "98900407:13",
+    "99260012:85",
+    "99260012:47",
+    "103764667:117",
+    "103764667:49",
+    "101043488:98",
+    "97515280:110"
+  ],
+  "runner_sha256": "54c9945f06b215ba39eef2ab1050184c9057f4cc6f9d6a0f64883e827896ab02",
+  "worlds_sha256": "6ca928c3765bb25a1670b045588666b506230a4f4b5feedcc6f35db66a974748"
+}

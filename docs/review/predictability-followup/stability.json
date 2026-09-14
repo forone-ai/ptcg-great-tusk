@@ -1,0 +1,239 @@
+{
+  "status": "post_hoc_exploratory_after_primary_results_known",
+  "source_sha256": "4d0da4981d90cacc2ea75f9cd5217ef936525a061d8c1636863c0d9f0e6dd2d7",
+  "bootstrap_replicates": 4000,
+  "bootstrap_seed": 2026091407,
+  "metric_definitions": {
+    "revealed_split_exact_action_agreement": "Exact root action selected on even repeats matches that selected on odd repeats in the same sampled hidden world, averaged over worlds.",
+    "revealed_split_cross_optimal_agreement": "An action selected on one repeat half belongs to the tied-best set in the other half, averaged over both directions and sampled worlds.",
+    "public_revealed_same_action_fraction": "Common action trained on other worlds equals revealed-world reference action, both using training repeats; evaluated over held-out world/repeat pairs."
+  },
+  "all_900": {
+    "low": {
+      "positions": 300,
+      "distinct_games": 300,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.9777083333333333,
+          "two_sided_95": [
+            0.966875,
+            0.9875
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.9834375,
+          "two_sided_95": [
+            0.9753125,
+            0.9909375
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.9139583333333333,
+          "two_sided_95": [
+            0.8897916666666666,
+            0.9366666666666666
+          ]
+        }
+      }
+    },
+    "mid": {
+      "positions": 300,
+      "distinct_games": 300,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.8025,
+          "two_sided_95": [
+            0.775,
+            0.829375
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.84375,
+          "two_sided_95": [
+            0.8201041666666666,
+            0.8663567708333333
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.6241666666666666,
+          "two_sided_95": [
+            0.5824973958333334,
+            0.6643854166666667
+          ]
+        }
+      }
+    },
+    "high": {
+      "positions": 300,
+      "distinct_games": 300,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.5166666666666667,
+          "two_sided_95": [
+            0.48749479166666665,
+            0.5464583333333334
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.6021875,
+          "two_sided_95": [
+            0.5747890625000001,
+            0.6298958333333333
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.3328125,
+          "two_sided_95": [
+            0.3046875,
+            0.3619869791666667
+          ]
+        }
+      }
+    }
+  },
+  "without_two_error_positions": {
+    "low": {
+      "positions": 300,
+      "distinct_games": 300,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.9777083333333333,
+          "two_sided_95": [
+            0.966875,
+            0.9875
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.9834375,
+          "two_sided_95": [
+            0.9753125,
+            0.9909375
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.9139583333333333,
+          "two_sided_95": [
+            0.8897916666666666,
+            0.9366666666666666
+          ]
+        }
+      }
+    },
+    "mid": {
+      "positions": 299,
+      "distinct_games": 299,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.802675585284281,
+          "two_sided_95": [
+            0.7748745819397993,
+            0.8292224080267558
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.8436454849498328,
+          "two_sided_95": [
+            0.8198134406354516,
+            0.8662207357859532
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.6258361204013378,
+          "two_sided_95": [
+            0.5853861831103679,
+            0.6661789297658863
+          ]
+        }
+      }
+    },
+    "high": {
+      "positions": 299,
+      "distinct_games": 299,
+      "metrics": {
+        "revealed_split_exact_action_agreement": {
+          "mean": 0.5173494983277592,
+          "two_sided_95": [
+            0.48787102842809366,
+            0.5464046822742475
+          ]
+        },
+        "revealed_split_cross_optimal_agreement": {
+          "mean": 0.6025292642140468,
+          "two_sided_95": [
+            0.5749346780936455,
+            0.6297031772575251
+          ]
+        },
+        "public_revealed_same_action_fraction": {
+          "mean": 0.3337165551839465,
+          "two_sided_95": [
+            0.30487040133779264,
+            0.36423494983277593
+          ]
+        }
+      }
+    }
+  },
+  "paired_low_minus_high": {
+    "positions": 116,
+    "distinct_games": 116,
+    "metrics": {
+      "revealed_split_exact_action_agreement": {
+        "mean": 0.49030172413793105,
+        "two_sided_95": [
+          0.4418103448275862,
+          0.5366379310344828
+        ]
+      },
+      "revealed_split_cross_optimal_agreement": {
+        "mean": 0.40490301724137934,
+        "two_sided_95": [
+          0.36072198275862066,
+          0.4480064655172414
+        ]
+      },
+      "public_revealed_same_action_fraction": {
+        "mean": 0.5660021551724138,
+        "two_sided_95": [
+          0.5024245689655172,
+          0.6274245689655172
+        ]
+      }
+    }
+  },
+  "paired_without_error_positions": {
+    "positions": 116,
+    "distinct_games": 116,
+    "metrics": {
+      "revealed_split_exact_action_agreement": {
+        "mean": 0.49030172413793105,
+        "two_sided_95": [
+          0.4418103448275862,
+          0.5366379310344828
+        ]
+      },
+      "revealed_split_cross_optimal_agreement": {
+        "mean": 0.40490301724137934,
+        "two_sided_95": [
+          0.36072198275862066,
+          0.4480064655172414
+        ]
+      },
+      "public_revealed_same_action_fraction": {
+        "mean": 0.5660021551724138,
+        "two_sided_95": [
+          0.5024245689655172,
+          0.6274245689655172
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "Measures action-selection repeatability and common/reference agreement, not held-out outcome prediction accuracy.",
+    "H is opponent deck+hand+remaining Prizes; no number of revealed cards was experimentally manipulated.",
+    "Game stage, board, own hidden state, action count, saturation and simulation noise may explain associations.",
+    "Paired games control game identity only, not changing within-game board or turn.",
+    "The 185 secondary error cells had zero training value in the original predeclared selector; full results preserve that definition and complete-position sensitivity is separate.",
+    "Broad ties inflate agreement. Both exact and tie-aware metrics are reported."
+  ]
+}

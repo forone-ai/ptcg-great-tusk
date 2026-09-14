@@ -1,0 +1,34 @@
+{
+  "checkpoints": {
+    "5": {
+      "ended_loss": 97,
+      "ongoing_high": 922,
+      "ongoing_mid": 957,
+      "ongoing_low": 13,
+      "ended_win": 10,
+      "missing": 1
+    },
+    "10": {
+      "ended_loss": 579,
+      "ongoing_mid": 756,
+      "ended_win": 353,
+      "ongoing_high": 99,
+      "ongoing_low": 212,
+      "missing": 1
+    },
+    "15": {
+      "ended_loss": 810,
+      "ended_win": 832,
+      "ongoing_low": 107,
+      "ongoing_mid": 235,
+      "missing": 1,
+      "ongoing_high": 14,
+      "ended_draw": 1
+    }
+  },
+  "all_available_reach": {
+    "count": 776,
+    "denominator": 1999
+  },
+  "note": "Counts are descriptive; one missing replay is retained as unresolved."
+}

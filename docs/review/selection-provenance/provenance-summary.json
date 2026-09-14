@@ -1,0 +1,116 @@
+{
+  "created_utc": "2026-09-13T21:07:21.015582+00:00",
+  "original_manifest": {
+    "positions": 1241,
+    "games": 690,
+    "sha256": "64eba5fc636c42785d195768999cd70a9a1fd913ff92cb3b01c5865cf5385d5b"
+  },
+  "eligibility": {
+    "accepted": 1029,
+    "rejected": 212,
+    "sha256": "2b04c72567a39ff294f58b7c0098b82d18759cad4700b8aa7f39ffce75392b6f",
+    "reasons": {
+      "proxy_deck_overlap_below_threshold": 212
+    },
+    "recorded_worlds_sha256": "6ca928c3765bb25a1670b045588666b506230a4f4b5feedcc6f35db66a974748",
+    "included_worlds_matches_recorded_validation_version": true
+  },
+  "final_manifest": {
+    "positions": 900,
+    "games": 498,
+    "counts": {
+      "mid": 300,
+      "high": 300,
+      "low": 300
+    },
+    "sha256": "ab8b5d77334f75d97bf66d3789b18c43a79232b81ab043f3e390c21d44f0c0c2"
+  },
+  "verification": {
+    "original_to_eligibility_hash_chain_matches": true,
+    "accepted_plus_rejected_exactly_partition_original": true,
+    "accepted_rows_preserve_original_order_and_fields": true,
+    "first_selected_per_band_reconstructs_frozen_bytes_exactly": true,
+    "pilot_reserved_games": 18,
+    "pilot_selected_run_games": 17,
+    "pilot_final_overlap": 0,
+    "old_inspection_final_overlap": 0,
+    "old_inspection_games": 39,
+    "confirmatory_results_read": false
+  },
+  "reextraction_requires_population_inputs": true,
+  "input_bundle_scope": "The adjacent replay archive contains the selected 498 games only. Re-extracting the sample requires all 1,999 population replay inputs, which are not bundled here.",
+  "historical_code_note": "Preparation/validation/freezing helper scripts are copies at packaging time. Only the worlds hash recorded by eligibility metadata and the frozen-config hashes provide contemporaneous version checks; other helper versions were not independently frozen.",
+  "old_exclusion_count_note": "The preparation metadata counts only excluded old games encountered before sample quotas were filled, not the size of the full 39-game exclusion set.",
+  "files": {
+    "positions.jsonl": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions.jsonl",
+      "bytes": 370216,
+      "sha256": "64eba5fc636c42785d195768999cd70a9a1fd913ff92cb3b01c5865cf5385d5b"
+    },
+    "positions.meta.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions.meta.json",
+      "bytes": 590,
+      "sha256": "3f8e6b6277d3048f1c37fb62ef537c97258060430e30079ffbd2ab48a62d5794"
+    },
+    "positions-eligible.jsonl": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions-eligible.jsonl",
+      "bytes": 491969,
+      "sha256": "2b04c72567a39ff294f58b7c0098b82d18759cad4700b8aa7f39ffce75392b6f"
+    },
+    "positions-eligible.meta.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions-eligible.meta.json",
+      "bytes": 579,
+      "sha256": "7bc39f9a697fadc62486edd07d5e55f1af15b15d3273c8a893de932d93a8aca7"
+    },
+    "positions-eligible.rejected.jsonl": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/positions-eligible.rejected.jsonl",
+      "bytes": 78645,
+      "sha256": "4ab63f27eb38c7357394058f0d2c9f02e70f1cb32791f313a4b0b67106750d39"
+    },
+    "frozen-manifest.jsonl": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/confirm-runtime-1/manifest.jsonl",
+      "bytes": 430571,
+      "sha256": "ab8b5d77334f75d97bf66d3789b18c43a79232b81ab043f3e390c21d44f0c0c2"
+    },
+    "frozen-config.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/confirm-runtime-1/frozen-config.json",
+      "bytes": 8091,
+      "sha256": "7ec18b30e55f15d36a8d23e9b4503ebe6425d5730ea0e8eb74ca977c2b13c5a1"
+    },
+    "prepare_positions.py": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/prepare_positions.py",
+      "bytes": 4739,
+      "sha256": "093dae01e05b42022be6acf829389915a3ae2297af34f6624a68b61f4bf5ba8e"
+    },
+    "validate_positions.py": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/validate_positions.py",
+      "bytes": 3574,
+      "sha256": "af9014cdd602095b962bebf83306c6754d2813618fb1c28d5edaeda602a30a4e"
+    },
+    "freeze_run.py": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/freeze_run.py",
+      "bytes": 4152,
+      "sha256": "3752328dbcdac7a5381f5b805dceafa59349b2df43fb08dbe65d720a284f0e4b"
+    },
+    "worlds.py": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/worlds.py",
+      "bytes": 19472,
+      "sha256": "6ca928c3765bb25a1670b045588666b506230a4f4b5feedcc6f35db66a974748"
+    },
+    "pilot-1-run-config.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/pilot-1/run-config.json",
+      "bytes": 818,
+      "sha256": "4d5fe484cc0550b3417722948ee0ec95c883c2b80f44328fed5a84b0d94351b6"
+    },
+    "pilot-2-run-config.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/pilot-2/run-config.json",
+      "bytes": 1427,
+      "sha256": "83539f9c0c6c2ee0f606f22a754e75908b3ac8a4af217b24042494974de2a2b7"
+    },
+    "pilot-3-run-config.json": {
+      "source_path": "/Users/gonuts/agent-workspace/kaggle-information-experiment-20260914/pilot-3/run-config.json",
+      "bytes": 1427,
+      "sha256": "6137ace03fd574eceb78abb0c54a879f30c4b50ba9272988269c2c7ba9c3db24"
+    }
+  }
+}
